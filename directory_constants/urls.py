@@ -13,13 +13,21 @@ urlpatterns = [
         RedirectView.as_view(url=urls.NEW_TO_EXPORTING_URL),
         name="new_to_exporting"),
 
-    url(r"^feedback$",
-        RedirectView.as_view(url=urls.FEEDBACK_FORM_URL),
-        name="feedback"),
+    url(r"^feedback_sso$",
+        RedirectView.as_view(url=urls.SSO_FEEDBACK_FORM_URL),
+        name="feedback_sso"),
 
-    url(r"^contact$",
-        RedirectView.as_view(url=urls.CONTACT_US_URL),
-        name="contact"),
+    url(r"^contact_sso$",
+        RedirectView.as_view(url=urls.SSO_CONTACT_US_URL),
+        name="contact_sso"),
+
+    url(r"^feedback_directory$",
+        RedirectView.as_view(url=urls.DIRECTORY_FEEDBACK_FORM_URL),
+        name="feedback_directory"),
+
+    url(r"^contact_directory$",
+        RedirectView.as_view(url=urls.DIRECTORY_CONTACT_US_URL),
+        name="contact_directory"),
 
     url(r"^events$",
         RedirectView.as_view(url=urls.EVENTS_URL),

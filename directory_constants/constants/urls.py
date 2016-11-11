@@ -1,8 +1,15 @@
-FEEDBACK_FORM_URL = (
+DIRECTORY_FEEDBACK_FORM_URL = (
     'https://contact-us.export.great.gov.uk/feedback/directory/'
 )
 
-CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/directory'
+DIRECTORY_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/directory'
+
+SSO_FEEDBACK_FORM_URL = (
+    'https://contact-us.export.great.gov.uk/feedback/single_sign_on/'
+)
+
+SSO_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/single_sign_on'
+
 
 TERMS_AND_CONDITIONS_URL = (
     'https://www.exportingisgreat.gov.uk/terms-and-conditions/'
@@ -31,6 +38,6 @@ ABOUT_URL = 'https://www.exportingisgreat.gov.uk/about'
 PRIVACY_URL = 'https://www.exportingisgreat.gov.uk/privacy-and-cookies/'
 
 DIT_URL = (
-	'https://www.gov.uk/government/organisations/'
-	'department-for-international-trade'
+    'https://www.gov.uk/government/organisations/'
+    'department-for-international-trade'
 )

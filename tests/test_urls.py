@@ -19,6 +19,7 @@ destinations = {
     'regular_exporter': urls.REGULAR_EXPORTER_URL,
     'selling_online_overseas': urls.SELLING_ONLINE_OVERSEAS_URL,
     'terms': urls.TERMS_AND_CONDITIONS_URL,
+    'exporting_is_great': urls.EXPORTING_IS_GREAT_URL,
 }
 
 

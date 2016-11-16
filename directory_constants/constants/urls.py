@@ -41,3 +41,5 @@ DIT_URL = (
     'https://www.gov.uk/government/organisations/'
     'department-for-international-trade'
 )
+
+EXPORTING_IS_GREAT_URL = 'https://www.exportingisgreat.gov.uk/'

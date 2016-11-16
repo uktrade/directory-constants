@@ -65,4 +65,8 @@ urlpatterns = [
         RedirectView.as_view(url=urls.DIT_URL),
         name="DIT"),
 
+    url(r"^exporting_is_great$",
+        RedirectView.as_view(url=urls.EXPORTING_IS_GREAT_URL),
+        name="exporting_is_great"),
+
 ]

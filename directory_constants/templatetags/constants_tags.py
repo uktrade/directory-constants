@@ -4,7 +4,7 @@ from django import template
 
 register = template.Library()
 
-urls = {
+url_map = {
     "terms": urls.TERMS_AND_CONDITIONS_URL,
     "new_to_exporting": urls.NEW_TO_EXPORTING_URL,
     "feedback_sso": urls.SSO_FEEDBACK_FORM_URL,
@@ -26,5 +26,5 @@ urls = {
 
 @register.simple_tag
 def external_url(name):
-    assert name in urls, 'URL name "{name}"" not found'.format(name=name)
-    return urls[name]
+    assert name in url_map, 'URL name "{name}"" not found'.format(name=name)
+    return url_map[name]

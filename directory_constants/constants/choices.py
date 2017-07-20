@@ -9,16 +9,23 @@ MANUFACTURING = 'manufacturing'
 
 TYPE_OF_ENQUIRIES = (
     (SPECIFIC, 'Specific'),
-    (OPEN_ENDED, 'Open-ended')
+    (OPEN_ENDED, 'Open-ended'),
 )
 BUSINESS_MODELS = (
     (DISTRIBUTION, 'Distribution'),
     (WHOLESALE, 'Wholesale'),
-    (RETAIL, 'Retail')
+    (RETAIL, 'Retail'),
 )
 SUBSECTOR_SELECTION = (
     (RETAIL, 'Retail'),
     (HOSPITALITY, 'Hospitality'),
     (CATERING, 'Catering'),
-    (MANUFACTURING, 'Manufacturing')
+    (MANUFACTURING, 'Manufacturing'),
+)
+EXPORT_DESTINATIONS = (
+    ('CN', 'China'),
+    ('DE', 'Germany'),
+    ('IN', 'India'),
+    ('JP', 'Japan'),
+    ('US', 'United States'),
 )

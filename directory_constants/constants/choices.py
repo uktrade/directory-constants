@@ -93,3 +93,27 @@ EMPLOYEES = (
     ('1001-10000', '1,001-10,000'),
     ('10001+', '10,001+'),
 )
+
+CONTACT_OPTIONS = (
+    ('EMAIL', 'Email'),
+    ('PHONE', 'Phone'),
+)
+
+PRODUCT_TYPE_OPTIONS = (
+    ('DISCOUNT', 'Discount'),
+    ('PREMIUM', 'Premium'),
+)
+
+ORDER_SIZE_OPTIONS = (
+    ('1-1000', '1-1,000 items'),
+    ('1000-10000', '1,000-10,000 items'),
+    ('10000-100000', '10,001-100,000 items'),
+    ('100000+', '100,001+ items'),
+)
+
+ORDER_DEADLINE_OPTIONS = (
+    ('1-3 MONTHS', '1 to 3 months'),
+    ('3-6 MONTHS', '3 to 6 months'),
+    ('6-12 MONTHS', '6 months to a year'),
+    ('NA', 'N/A'),
+)

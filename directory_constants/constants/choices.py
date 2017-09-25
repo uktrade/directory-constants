@@ -117,3 +117,6 @@ ORDER_DEADLINE_OPTIONS = (
     ('6-12 MONTHS', '6 months to a year'),
     ('NA', 'N/A'),
 )
+
+LEAD_GENERATION_COUNTRIES = ['france', 'singapore']
+LEAD_GENERATION_CAMPAIGNS = ['food-is-great']

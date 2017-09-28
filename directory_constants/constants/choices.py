@@ -37,6 +37,10 @@ INDUSTRIES = (
     (sectors.AEROSPACE, 'Aerospace'),
     (sectors.ADVANCED_MANUFACTURING, 'Advanced manufacturing'),
     (sectors.AIRPORTS, 'Airports'),
+    (
+        sectors.AGRICULTURE_HORTICULTURE_AND_FISHERIES,
+        'Agriculture, horticulture and fisheries'
+    ),
     (sectors.AUTOMOTIVE, 'Automotive'),
     (
         sectors.BIOTECHNOLOGY_AND_PHARMACEUTICALS,

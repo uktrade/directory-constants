@@ -34,6 +34,7 @@ EXPORT_DESTINATIONS = (
 )
 
 INDUSTRIES = (
+    (sectors.AEROSPACE, 'Aerospace'),
     (sectors.ADVANCED_MANUFACTURING, 'Advanced manufacturing'),
     (sectors.AIRPORTS, 'Airports'),
     (sectors.AUTOMOTIVE, 'Automotive'),

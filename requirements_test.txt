@@ -5,7 +5,7 @@
 #    pip-compile --output-file requirements_test.txt requirements_test.ini
 #
 coverage==4.4.1           # via pytest-cov
-django==1.11.4
+django==1.11.5
 flake8==3.0.4
 mccabe==0.5.3             # via flake8
 py==1.4.34                # via pytest

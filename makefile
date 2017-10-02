@@ -15,4 +15,12 @@ pytest:
 
 test: flake8 pytest
 
+compile_requirements:
+	python3 -m piptools compile requirements.ini
+
+compile_test_requirements:
+	python3 -m piptools compile requirements_test.ini
+
+compile_all_requirements: compile_requirements compile_test_requirements
+
 .PHONY: build clean test_requirements flake8 pytest test

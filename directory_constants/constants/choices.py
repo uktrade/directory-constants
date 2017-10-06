@@ -14,18 +14,48 @@ TYPE_OF_ENQUIRIES = (
     (SPECIFIC, 'Specific'),
     (OPEN_ENDED, 'Open-ended'),
 )
-BUSINESS_MODELS = (
+
+FOOD_LEAD_GENERATION_BUSINESS_MODELS = (
     (DISTRIBUTION, 'Distribution'),
     (WHOLESALE, 'Wholesale'),
     (RETAIL, 'Retail'),
 )
-SUBSECTOR_SELECTION = (
+
+FOOD_LEAD_GENERATION_SECTORS = (
     (RETAIL, 'Retail'),
     (HOSPITALITY, 'Hospitality'),
     (CATERING, 'Catering'),
     (MANUFACTURING, 'Manufacturing'),
 )
-EXPORT_DESTINATIONS = (
+
+LEGAL_LEAD_GENERATION_SECTORS = (
+    (sectors.TECHNOLOGY, 'Technology'),
+    (sectors.FOOD_AND_DRINK, 'Food and drink'),
+    (sectors.RETAIL_AND_LUXURY, 'Retail'),
+    (
+        sectors.FINANCIAL_AND_PROFESSIONAL_SERVICES,
+        (
+            'Professional services (for example, financial '
+            'services or business consulting'
+        )
+    ),
+    (sectors.MARINE, 'Marine'),
+    (sectors.ENERGY, 'Energy'),
+)
+
+LEGAL_LEAD_GENERATION_NEED = (
+    (
+        'General-business-advice-and-partnership',
+        'General business advice and partnership'
+    ),
+    ('Business-start-up-advice', 'Business start-up advice'),
+    ('Drafting-of-contracts', 'Drafting of contracts'),
+    ('Mergers-and-acquisitions', 'Mergers and acquisitions'),
+    ('Immigration', 'Immigration'),
+    ('Dispute-resolution', 'Dispute resolution'),
+)
+
+LEAD_GENERATION_EXPORT_DESTINATIONS = (
     ('CN', 'China'),
     ('DE', 'Germany'),
     ('IN', 'India'),
@@ -98,6 +128,7 @@ INDUSTRIES = (
     ),
     (sectors.WATER, 'Water'),
 )
+
 EMPLOYEES = (
     ('', 'Please select an option'),
     ('1-10', '1-10'),
@@ -114,7 +145,7 @@ CONTACT_OPTIONS = (
     ('PHONE', 'Phone'),
 )
 
-PRODUCT_TYPE_OPTIONS = (
+FOOD_LEAD_GENERATION_PRODUCT_TYPES = (
     ('DISCOUNT', 'Discount'),
     ('PREMIUM', 'Premium'),
 )
@@ -134,11 +165,11 @@ ORDER_DEADLINE_OPTIONS = (
 )
 
 LEAD_GENERATION_COUNTRIES = [
-    lead_generation.FRANCE,
-    lead_generation.SINGAPORE,
+    (lead_generation.FRANCE, 'France'),
+    (lead_generation.SINGAPORE, 'Singapore'),
 ]
 
 LEAD_GENERATION_CAMPAIGNS = [
-    lead_generation.FOOD_IS_GREAT,
-    lead_generation.LEGAL_IS_GREAT,
+    (lead_generation.FOOD_IS_GREAT, lead_generation.FOOD_IS_GREAT),
+    (lead_generation.LEGAL_IS_GREAT, lead_generation.LEGAL_IS_GREAT),
 ]

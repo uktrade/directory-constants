@@ -139,7 +139,6 @@ CODES_SECTORS_DICT = {
             'accessories',
     'HS91': 'Clocks and watches and parts thereof',
     'HS92': 'Musical instruments; parts and accessories of such articles',
-    'HS93': 'Arms and ammunition; parts and accessories thereof',
     'HS94': 'Furniture; bedding, mattresses, mattress supports, cushions and '
             'similar stuffed furnishings; lamps and lighting fittings, n.e.c.;'
             ' illuminated signs, illuminated name-plates and the like; '

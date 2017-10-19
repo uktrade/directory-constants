@@ -472,4 +472,48 @@ SECTORS = [
         'COMMODITIES NOT SPECIFIED ACCORDING TO KIND',
         'Commodities not specified according to kind'
     ),
+    (
+        'TRANSPORTATION',
+        'Transportation'
+    ),
+    (
+        'TRAVEL',
+        'Travel'
+    ),
+    (
+        'COMMUNICATIONS SERVICES',
+        'Communications services'
+    ),
+    (
+        'CONTRUCTION SERVICES',
+        'Construction services'
+    ),
+    (
+        'INSURANCE SERVICES',
+        'Insurance services'
+    ),
+    (
+        'FINANCIAL SERVICES',
+        'Financial services'
+    ),
+    (
+        'COMPUTER AND INFORMATION SERVICES',
+        'Computer and information services'
+    ),
+    (
+        'ROYALTIES AND LICENSE FEES',
+        'Royalties and license fees'
+    ),
+    (
+        'OTHER BUSINESS SERVICES',
+        'Other business services'
+    ),
+    (
+        'PERSONAL, CULTURAL, AND RECREATIONAL SERVICES',
+        'Personal, cultural, and recreational services'
+    ),
+    (
+        'GOVERNMENT SERVICES, N.I.E.',
+        'Government services, n.i.e.'
+    )
 ]

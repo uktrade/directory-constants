@@ -1,45 +1,42 @@
-DIRECTORY_FEEDBACK_FORM_URL = (
-    'https://contact-us.export.great.gov.uk/feedback/directory/'
-)
+GREAT_HOME = 'http://great.gov.uk/'
+GREAT_EXPORT_HOME = 'http://export.great.gov.uk/'
 
-DIRECTORY_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/directory'
+# EXPORTING PERSONAS
+EXPORTING_NEW = 'http://export.great.gov.uk/new/'
+EXPORTING_OCCASIONAL = 'http://export.great.gov.uk/occasional/'
+EXPORTING_REGULAR = 'http://export.great.gov.uk/regular/'
 
-SSO_FEEDBACK_FORM_URL = (
-    'https://contact-us.export.great.gov.uk/feedback/single_sign_on/'
-)
+# GUIDANCE/ARTICLE SECTIONS
+GUIDANCE_MARKET_RESEARCH = 'http://export.great.gov.uk/market-research/'
+GUIDANCE_CUSTOMER_INSIGHT = 'http://export.great.gov.uk/customer-insight/'
+GUIDANCE_FINANCE = 'http://export.great.gov.uk/finance/'
+GUIDANCE_BUSINESS_PLANNING = (
+    'http://export.great.gov.uk/business-planning/')
+GUIDANCE_GETTING_PAID = 'http://export.great.gov.uk/getting-paid/'
+GUIDANCE_OPERATIONS_AND_COMPLIANCE = (
+    'http://export.great.gov.uk/operations-and-compliance/')
 
-SSO_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/single_sign_on'
+# SERVICES
+SERVICES_EVENTS = 'http://events.trade.gov.uk/'
+SERVICES_EXOPPS = 'http://opportunities.export.great.gov.uk/'
+SERVICES_FAB = 'http://find-a-buyer.export.great.gov.uk/'
+SERVICES_GET_FINANCE = 'http://export.great.gov.uk/get-finance/'
+SERVICES_SOO = 'http://selling-online-overseas.export.great.gov.uk/'
 
-
-TERMS_AND_CONDITIONS_URL = (
-    'https://www.exportingisgreat.gov.uk/terms-and-conditions/'
-)
-
-NEW_TO_EXPORTING_URL = 'https://exportingisgreat.gov.uk/new/'
-
-EXPORT_OPPORTUNITIES_URL = 'https://www.exportingisgreat.gov.uk/opportunities'
-
-FIND_A_BUYER_URL = 'http://find-a-buyer.export.great.gov.uk/'
-
-SELLING_ONLINE_OVERSEAS_URL = (
-    'https://selling-online-overseas.export.great.gov.uk/'
-)
-
-EVENTS_URL = 'https://events.trade.gov.uk'
-
-OCCASIONAL_EXPORTER_URL = (
-    'https://www.exportingisgreat.gov.uk/occasional/'
-)
-
-REGULAR_EXPORTER_URL = 'https://www.exportingisgreat.gov.uk/regular/'
-
-ABOUT_URL = 'https://www.exportingisgreat.gov.uk/about'
-
-PRIVACY_URL = 'https://www.exportingisgreat.gov.uk/privacy-and-cookies/'
-
-DIT_URL = (
+# INFO
+INFO_CONTACT_US_DIRECTORY = 'https://contact-us.export.great.gov.uk/directory'
+INFO_CONTACT_US_SSO = 'https://contact-us.export.great.gov.uk/single_sign_on'
+INFO_TERMS_AND_CONDITIONS = (
+    'https://www.export.great.gov.uk/terms-and-conditions/')
+INFO_ABOUT = 'http://export.great.gov.uk/about/'
+INFO_PRIVACY_AND_COOKIES = (
+    'http://export.great.gov.uk/privacy-and-cookies/')
+INFO_DIT = (
     'https://www.gov.uk/government/organisations/'
-    'department-for-international-trade'
-)
+    'department-for-international-trade')
 
-EXPORTING_IS_GREAT_URL = 'https://www.exportingisgreat.gov.uk/'
+# FEEDBACK
+FEEDBACK_FORM_DIRECTORY = (
+    'https://contact-us.export.great.gov.uk/directory/FeedbackForm')
+FEEDBACK_FORM_SSO = (
+    'https://contact-us.export.great.gov.uk/single_sign_on/FeedbackForm')

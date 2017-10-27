@@ -1,23 +1,31 @@
 DIRECTORY_FEEDBACK_FORM_URL = (
-    'https://contact-us.export.great.gov.uk/feedback/directory/'
+    'https://contact-us.export.great.gov.uk/directory/FeedbackForm'
 )
 
 DIRECTORY_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/directory'
 
 SSO_FEEDBACK_FORM_URL = (
-    'https://contact-us.export.great.gov.uk/feedback/single_sign_on/'
+    'https://contact-us.export.great.gov.uk/single_sign_on/FeedbackForm'
 )
 
 SSO_CONTACT_US_URL = 'https://contact-us.export.great.gov.uk/single_sign_on'
 
 
 TERMS_AND_CONDITIONS_URL = (
-    'https://www.exportingisgreat.gov.uk/terms-and-conditions/'
+    'https://www.export.great.gov.uk/terms-and-conditions/'
 )
 
-NEW_TO_EXPORTING_URL = 'https://exportingisgreat.gov.uk/new/'
+EXPORTING_IS_GREAT_URL = 'https://www.export.great.gov.uk/'
 
-EXPORT_OPPORTUNITIES_URL = 'https://www.exportingisgreat.gov.uk/opportunities'
+NEW_TO_EXPORTING_URL = 'https://www.export.great.gov.uk/new/'
+
+OCCASIONAL_EXPORTER_URL = (
+    'https://www.export.great.gov.uk/occasional/'
+)
+
+REGULAR_EXPORTER_URL = 'https://www.export.great.gov.uk/regular/'
+
+EXPORT_OPPORTUNITIES_URL = 'https://opportunities.export.great.gov.uk/'
 
 FIND_A_BUYER_URL = 'http://find-a-buyer.export.great.gov.uk/'
 
@@ -27,19 +35,11 @@ SELLING_ONLINE_OVERSEAS_URL = (
 
 EVENTS_URL = 'https://events.trade.gov.uk'
 
-OCCASIONAL_EXPORTER_URL = (
-    'https://www.exportingisgreat.gov.uk/occasional/'
-)
+ABOUT_URL = 'https://www.export.great.gov.uk/about/'
 
-REGULAR_EXPORTER_URL = 'https://www.exportingisgreat.gov.uk/regular/'
-
-ABOUT_URL = 'https://www.exportingisgreat.gov.uk/about'
-
-PRIVACY_URL = 'https://www.exportingisgreat.gov.uk/privacy-and-cookies/'
+PRIVACY_URL = 'https://www.export.great.gov.uk/privacy-and-cookies/'
 
 DIT_URL = (
     'https://www.gov.uk/government/organisations/'
     'department-for-international-trade'
 )
-
-EXPORTING_IS_GREAT_URL = 'https://www.exportingisgreat.gov.uk/'

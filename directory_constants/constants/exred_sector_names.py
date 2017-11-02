@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-CODES_SECTORS_DICT = OrderedDict(
+CODES_SECTORS_DICT = OrderedDict([
     # goods
     ('HS01', 'Animals; live'),
     ('HS02', 'Meat and edible meat offal'),
@@ -164,7 +164,7 @@ CODES_SECTORS_DICT = OrderedDict(
     ('EB9', 'Other business services'),
     ('EB10', 'Personal, cultural, and recreational services'),
     ('EB11', 'Government services, n.i.e.'),
-)
+])
 
 
 SECTORS_CHOICES = tuple(CODES_SECTORS_DICT.items())

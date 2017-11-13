@@ -375,5 +375,21 @@ EXREAD_ARTICLES_CHOICES = (
     (
         exred_articles.WHAT_INTELLECTUAL_PROPERTY_IS,
         'WHAT_INTELLECTUAL_PROPERTY_IS'
+    ),
+    (
+        exred_articles.SELL_OVERSEAS_DIRECTLY,
+        'SELL_OVERSEAS_DIRECTLY'
+    ),
+    (
+        exred_articles.NEXT_STEPS_NEW_EXPORTER,
+        'NEXT_STEPS_NEW_EXPORTER',
+    ),
+    (
+        exred_articles.NEXT_STEPS_OCCASIONAL_EXPORTER,
+        'NEXT_STEPS_OCCASIONAL_EXPORTER'
+    ),
+    (
+        exred_articles.NEXT_STEPS_REGULAR_EXPORTER,
+        'NEXT_STEPS_REGULAR_EXPORTER'
     )
 )

@@ -18,7 +18,7 @@ GUIDANCE_OPERATIONS_AND_COMPLIANCE = (
 
 # SERVICES
 SERVICES_EVENTS = 'http://events.trade.gov.uk/'
-SERVICES_EXOPPS = 'http://opportunities.export.great.gov.uk/'
+SERVICES_EXOPPS = 'http://great.gov.uk/export-opportunities/'
 SERVICES_FAB = 'http://find-a-buyer.export.great.gov.uk/'
 SERVICES_GET_FINANCE = 'http://export.great.gov.uk/get-finance/'
 SERVICES_SOO = 'http://selling-online-overseas.export.great.gov.uk/'

@@ -1,4 +1,4 @@
-GREAT_HOME = 'https://great.gov.uk/'
+GREAT_HOME = 'https://great.gov.uk/international/'
 GREAT_EXPORT_HOME = 'https://great.gov.uk/'
 
 # EXPORTING PERSONAS
@@ -29,7 +29,7 @@ INFO_CONTACT_US_DIRECTORY = (
     'https://contact-us.export.great.gov.uk/directory/FeedbackForm/')
 INFO_CONTACT_US_SSO = (
     'https://contact-us.export.great.gov.uk/single_sign_on/FeedbackForm/')
-INFO_TERMS_AND_CONDITIONS = 'https://www.great.gov.uk/terms-and-conditions/'
+INFO_TERMS_AND_CONDITIONS = 'https://great.gov.uk/terms-and-conditions/'
 INFO_ABOUT = 'https://great.gov.uk/about/'
 INFO_PRIVACY_AND_COOKIES = 'https://great.gov.uk/privacy-and-cookies/'
 INFO_DIT = (

@@ -6,7 +6,7 @@ CUSTOM_PAGE = 'https://great.gov.uk/custom/'
 EXPORTING_NEW = 'https://great.gov.uk/new/'
 EXPORTING_OCCASIONAL = 'https://great.gov.uk/occasional/'
 EXPORTING_REGULAR = 'https://great.gov.uk/regular/'
-CUSTOM_PAGE = 'https://great.gov.uk/custom'
+CUSTOM_PAGE = 'https://great.gov.uk/custom/'
 
 # GUIDANCE/ARTICLE SECTIONS
 GUIDANCE_MARKET_RESEARCH = 'https://great.gov.uk/market-research/'

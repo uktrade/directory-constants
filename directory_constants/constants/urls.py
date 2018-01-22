@@ -1,4 +1,4 @@
-GREAT_HOME = 'https://great.gov.uk/international/'
+GREAT_HOME = 'https://great.gov.uk/'
 GREAT_EXPORT_HOME = 'https://great.gov.uk/'
 CUSTOM_PAGE = 'https://great.gov.uk/custom/'
 

@@ -173,6 +173,7 @@ LEAD_GENERATION_COUNTRIES = [
 LEAD_GENERATION_CAMPAIGNS = [
     (lead_generation.FOOD_IS_GREAT, lead_generation.FOOD_IS_GREAT),
     (lead_generation.LEGAL_IS_GREAT, lead_generation.LEGAL_IS_GREAT),
+    (lead_generation.INDUSTRIES_PAGE, lead_generation.INDUSTRIES_PAGE),
 ]
 
 EXREAD_ARTICLES_CHOICES = (

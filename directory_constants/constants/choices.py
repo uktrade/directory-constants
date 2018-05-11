@@ -131,7 +131,6 @@ INDUSTRIES = (
 )
 
 EMPLOYEES = (
-    ('', 'Please select an option'),
     ('1-10', '1-10'),
     ('11-50', '11-50'),
     ('51-200', '51-200'),

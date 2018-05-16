@@ -23,6 +23,22 @@ compile_test_requirements:
 
 compile_all_requirements: compile_requirements compile_test_requirements
 
+makemessages:
+	django-admin makemessages \
+		--locale ar \
+		--locale de \
+		--locale en_GB \
+		--locale es \
+		--locale fr \
+		--locale ja \
+		--locale pt \
+		--locale pt_BR \
+		--locale zh_Hans \
+		--no-wrap
+
+compilemessages:
+	django-admin compilemessages
+
 publish:
 	rm -rf build dist; \
 	python setup.py bdist_wheel; \

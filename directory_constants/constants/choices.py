@@ -1,5 +1,8 @@
-from directory_constants.constants import exred_articles, lead_generation, \
-    sectors
+from django.utils.translation import gettext_lazy as _
+
+from directory_constants.constants import (
+    exred_articles, lead_generation, sectors
+)
 
 
 SPECIFIC = 'specific'
@@ -65,69 +68,77 @@ LEAD_GENERATION_EXPORT_DESTINATIONS = (
 )
 
 INDUSTRIES = (
-    (sectors.AEROSPACE, 'Aerospace'),
-    (sectors.ADVANCED_MANUFACTURING, 'Advanced manufacturing'),
-    (sectors.AIRPORTS, 'Airports'),
+    (sectors.AEROSPACE, _('Aerospace')),
+    (sectors.ADVANCED_MANUFACTURING, _('Advanced manufacturing')),
+    (sectors.AIRPORTS, _('Airports')),
     (
         sectors.AGRICULTURE_HORTICULTURE_AND_FISHERIES,
-        'Agriculture, horticulture and fisheries'
+        _('Agriculture, horticulture and fisheries')
     ),
-    (sectors.AUTOMOTIVE, 'Automotive'),
+    (sectors.AUTOMOTIVE, _('Automotive')),
     (
         sectors.BIOTECHNOLOGY_AND_PHARMACEUTICALS,
-        'Biotechnology and pharmaceuticals'
+        _('Biotechnology and pharmaceuticals')
     ),
     (
         sectors.BUSINESS_AND_CONSUMER_SERVICES,
-        'Business and consumer services'
+        _('Business and consumer services')
     ),
-    (sectors.CHEMICALS, 'Chemicals'),
-    (sectors.CLOTHING_FOOTWEAR_AND_FASHION, 'Clothing, footwear and fashion'),
-    (sectors.COMMUNICATIONS, 'Communications'),
-    (sectors.CONSTRUCTION, 'Construction'),
-    (sectors.CREATIVE_AND_MEDIA, 'Creative and media'),
-    (sectors.EDUCATION_AND_TRAINING, 'Education and training'),
-    (sectors.ELECTRONICS_AND_IT_HARDWARE, 'Electronics and IT hardware'),
-    (sectors.ENVIRONMENT, 'Environment'),
+    (sectors.CHEMICALS, _('Chemicals')),
+    (
+        sectors.CLOTHING_FOOTWEAR_AND_FASHION,
+        _('Clothing, footwear and fashion')),
+    (sectors.COMMUNICATIONS, _('Communications')),
+    (sectors.CONSTRUCTION, _('Construction')),
+    (sectors.CREATIVE_AND_MEDIA, _('Creative and media')),
+    (sectors.EDUCATION_AND_TRAINING, _('Education and training')),
+    (sectors.ELECTRONICS_AND_IT_HARDWARE, _('Electronics and IT hardware')),
+    (sectors.ENVIRONMENT, _('Environment')),
     (
         sectors.FINANCIAL_AND_PROFESSIONAL_SERVICES,
-        'Financial and professional services'
+        _('Financial and professional services')
     ),
-    (sectors.FOOD_AND_DRINK, 'Food and drink'),
+    (sectors.FOOD_AND_DRINK, _('Food and drink')),
     (
         sectors.GIFTWARE_JEWELLERY_AND_TABLEWARE,
-        'Giftware, jewellery and tableware'
+        _('Giftware, jewellery and tableware')
     ),
-    (sectors.GLOBAL_SPORTS_INFRASTRUCTURE, 'Global sports infrastructure'),
-    (sectors.HEALTHCARE_AND_MEDICAL, 'Healthcare and medical'),
+    (sectors.GLOBAL_SPORTS_INFRASTRUCTURE, _('Global sports infrastructure')),
+    (sectors.HEALTHCARE_AND_MEDICAL, _('Healthcare and medical')),
     (
         sectors.HOUSEHOLD_GOODS_FURNITURE_AND_FURNISHINGS,
-        'Household goods, furniture and furnishings'
+        _('Household goods, furniture and furnishings')
     ),
-    (sectors.LIFE_SCIENCES, 'Life sciences'),
-    (sectors.LEISURE_AND_TOURISM, 'Leisure and tourism'),
-    (sectors.LEGAL_SERVICES, 'Legal services'),
-    (sectors.MARINE, 'Marine'),
+    (sectors.LIFE_SCIENCES, _('Life sciences')),
+    (sectors.LEISURE_AND_TOURISM, _('Leisure and tourism')),
+    (sectors.LEGAL_SERVICES, _('Legal services')),
+    (sectors.MARINE, _('Marine')),
     (
         sectors.MECHANICAL_ELECTRICAL_AND_PROCESS_ENGINEERING,
-        'Mechanical electrical and process engineering'
+        _('Mechanical electrical and process engineering')
     ),
-    (sectors.METALLURGICAL_PROCESS_PLANT, 'Metallurgical process plant'),
-    (sectors.METALS_MINERALS_AND_MATERIALS, 'Metals, minerals and materials'),
-    (sectors.MINING, 'Mining'),
-    (sectors.OIL_AND_GAS, 'Oil and gas'),
-    (sectors.PORTS_AND_LOGISTICS, 'Ports and logistics'),
-    (sectors.POWER, 'Power'),
-    (sectors.RAILWAYS, 'Railways'),
-    (sectors.RENEWABLE_ENERGY, 'Renewable energy'),
-    (sectors.RETAIL_AND_LUXURY, 'Retail and luxury'),
-    (sectors.SECURITY, 'Security'),
-    (sectors.SOFTWARE_AND_COMPUTER_SERVICES, 'Software and computer services'),
+    (sectors.METALLURGICAL_PROCESS_PLANT, _('Metallurgical process plant')),
+    (
+        sectors.METALS_MINERALS_AND_MATERIALS,
+        _('Metals, minerals and materials')
+    ),
+    (sectors.MINING, _('Mining')),
+    (sectors.OIL_AND_GAS, _('Oil and gas')),
+    (sectors.PORTS_AND_LOGISTICS, _('Ports and logistics')),
+    (sectors.POWER, _('Power')),
+    (sectors.RAILWAYS, _('Railways')),
+    (sectors.RENEWABLE_ENERGY, _('Renewable energy')),
+    (sectors.RETAIL_AND_LUXURY, _('Retail and luxury')),
+    (sectors.SECURITY, _('Security')),
+    (
+        sectors.SOFTWARE_AND_COMPUTER_SERVICES,
+        _('Software and computer services')
+    ),
     (
         sectors.TEXTILES_INTERIOR_TEXTILES_AND_CARPETS,
-        'Textiles, interior textiles and carpets'
+        _('Textiles, interior textiles and carpets')
     ),
-    (sectors.WATER, 'Water'),
+    (sectors.WATER, _('Water')),
 )
 
 EMPLOYEES = (

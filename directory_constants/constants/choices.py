@@ -188,6 +188,22 @@ LEAD_GENERATION_CAMPAIGNS = [
 
 EXREAD_ARTICLES_CHOICES = (
     (
+        exred_articles.DOING_BUSINESS_WITH_INTEGRITY,
+        'DOING_BUSINESS_WITH_INTEGRITY'
+    ),
+    (
+        exred_articles.ANTI_BRIBERY_AND_CORRUPTION_TRAINING,
+        'ANTI_BRIBERY_AND_CORRUPTION_TRAINING'
+    ),
+    (
+        exred_articles.REPORT_CORRUPTION,
+        'REPORT_CORRUPTION'
+    ),
+    (
+        exred_articles.KNOW_THE_RELEVANT_LEGISLATION,
+        'KNOW_THE_RELEVANT_LEGISLATION'
+    ),
+    (
         exred_articles.ANALYSE_THE_COMPETITION,
         'ANALYSE_THE_COMPETITION'
     ),

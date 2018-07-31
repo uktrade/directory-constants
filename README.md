@@ -1,9 +1,8 @@
 # directory-constants
 
-[![code-climate-image]][code-climate]
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
-[![gemnasium-image]][gemnasium]
+[![pypi-image]][pypi]
 
 ---
 
@@ -53,14 +52,11 @@ Then run the following command:
     make publish
 
 
-[code-climate-image]: https://codeclimate.com/github/uktrade/directory-constants/badges/issue_count.svg
-[code-climate]: https://codeclimate.com/github/uktrade/directory-constants
-
 [circle-ci-image]: https://circleci.com/gh/uktrade/directory-constants/tree/master.svg?style=svg
 [circle-ci]: https://circleci.com/gh/uktrade/directory-constants/tree/master
 
 [codecov-image]: https://codecov.io/gh/uktrade/directory-constants/branch/master/graph/badge.svg
 [codecov]: https://codecov.io/gh/uktrade/directory-constants
 
-[gemnasium-image]: https://gemnasium.com/badges/github.com/uktrade/directory-constants.svg
-[gemnasium]: https://gemnasium.com/github.com/uktrade/directory-constants
+[pypi-image]: https://badge.fury.io/py/directory-constants.svg
+[pypi]: https://badge.fury.io/py/directory-constants

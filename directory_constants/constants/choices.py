@@ -1,6 +1,6 @@
 
 from directory_constants.constants import (
-    exred_articles, lead_generation, sectors
+    cms, exred_articles, lead_generation, sectors
 )
 
 
@@ -419,3 +419,10 @@ EXREAD_ARTICLES_CHOICES = (
         'NEXT_STEPS_REGULAR_EXPORTER'
     )
 )
+
+
+CMS_APP_CHOICES = [
+    (cms.FIND_A_SUPPLIER, 'Find a Supplier'),
+    (cms.EXPORT_READINESS, 'Export Readiness'),
+    (cms.INVEST, 'Invest')
+]

@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='directory_constants',
-    version='8.0.0',
+    version='8.0.1',
     url='https://github.com/uktrade/directory-constants',
     license='MIT',
     author='Department for International Trade',

@@ -16,12 +16,19 @@ jobs:
       - image: circleci/python:3.5.5
     steps:
       - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "requirements-dev.txt" }}-{{ checksum "setup.py" }}
       - run:
           command: |
             python3 -m venv .venv
             . .venv/bin/activate
             make test_requirements
             make publish
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements-dev.txt" }}-{{ checksum "setup.py" }}
 
 workflows:
   version: 2

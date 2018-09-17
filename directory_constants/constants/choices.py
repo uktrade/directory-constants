@@ -1,7 +1,8 @@
+import json
+from operator import itemgetter
+import os
 
-from directory_constants.constants import (
-    cms, exred_articles, lead_generation, sectors
-)
+from directory_constants.constants import cms, exred_articles, sectors
 
 
 SPECIFIC = 'specific'
@@ -155,35 +156,6 @@ CONTACT_OPTIONS = (
     ('PHONE', 'Phone'),
 )
 
-FOOD_LEAD_GENERATION_PRODUCT_TYPES = (
-    ('DISCOUNT', 'Discount'),
-    ('PREMIUM', 'Premium'),
-)
-
-ORDER_SIZE_OPTIONS = (
-    ('1-1000', '1-1,000 items'),
-    ('1000-10000', '1,000-10,000 items'),
-    ('10000-100000', '10,001-100,000 items'),
-    ('100000+', '100,001+ items'),
-)
-
-ORDER_DEADLINE_OPTIONS = (
-    ('1-3 MONTHS', '1 to 3 months'),
-    ('3-6 MONTHS', '3 to 6 months'),
-    ('6-12 MONTHS', '6 months to a year'),
-    ('NA', 'N/A'),
-)
-
-LEAD_GENERATION_COUNTRIES = [
-    (lead_generation.FRANCE, 'France'),
-    (lead_generation.SINGAPORE, 'Singapore'),
-]
-
-LEAD_GENERATION_CAMPAIGNS = [
-    (lead_generation.FOOD_IS_GREAT, lead_generation.FOOD_IS_GREAT),
-    (lead_generation.LEGAL_IS_GREAT, lead_generation.LEGAL_IS_GREAT),
-    (lead_generation.INDUSTRIES_PAGE, lead_generation.INDUSTRIES_PAGE),
-]
 
 EXREAD_ARTICLES_CHOICES = (
     (
@@ -426,3 +398,15 @@ CMS_APP_CHOICES = [
     (cms.EXPORT_READINESS, 'Export Readiness'),
     (cms.INVEST, 'Invest')
 ]
+
+
+country_fixture_path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), '../fixtures/country.json'
+)
+with open(country_fixture_path, 'r') as f:
+    country_values = [
+        country['item'][-1] for country in json.loads(f.read()).values()
+    ]
+    COUNTRY_CHOICES = sorted([
+        (item['country'], item['name']) for item in country_values
+    ], key=itemgetter(1))

@@ -400,6 +400,7 @@ CMS_APP_CHOICES = [
 ]
 
 
+# from https://www.registers.service.gov.uk/registers/country
 country_fixture_path = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), '../fixtures/country.json'
 )

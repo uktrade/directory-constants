@@ -405,9 +405,9 @@ country_fixture_path = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), '../fixtures/country.json'
 )
 with open(country_fixture_path, 'r') as f:
-    country_values = [
-        country['item'][-1] for country in json.loads(f.read()).values()
-    ]
-    COUNTRY_CHOICES = sorted([
-        (item['country'], item['name']) for item in country_values
-    ], key=itemgetter(1))
+    COUNTRY_CHOICES = []
+    for country in json.loads(f.read()).values():
+        for item in country['item']:
+            if 'end-date' not in item:
+                COUNTRY_CHOICES.append((item['country'], item['name']))
+    COUNTRY_CHOICES.sort(key=itemgetter(1))

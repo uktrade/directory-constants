@@ -396,7 +396,8 @@ EXREAD_ARTICLES_CHOICES = (
 CMS_APP_CHOICES = [
     (cms.FIND_A_SUPPLIER, 'Find a Supplier'),
     (cms.EXPORT_READINESS, 'Export Readiness'),
-    (cms.INVEST, 'Invest')
+    (cms.INVEST, 'Invest'),
+    (cms.COMPONENTS, 'Components'),
 ]
 
 

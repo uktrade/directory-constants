@@ -62,6 +62,9 @@ EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_FEEDBACK_SLUG = (
 EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_FIND_COMPANIES_SLUG = (
     'contact-find-companies-success-form'
 )
+EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_INTERNATIONAL_SLUG = (
+    'contact-international-success-form'
+)
 # Find A Supplier
 FIND_A_SUPPLIER_INDUSTRY_LANDING_SLUG = 'industries-landing-page'
 FIND_A_SUPPLIER_LANDING_SLUG = 'landing-page'

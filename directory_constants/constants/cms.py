@@ -60,6 +60,7 @@ EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_FIND_COMPANIES_SLUG = (
 EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_INTERNATIONAL_SLUG = (
     'contact-international-success-form'
 )
+EXPORT_READINESS_MARKETING_PAGES_SLUG = 'export-readiness-marketing-pages'
 
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'
@@ -70,6 +71,8 @@ INVEST_HIGH_POTENTIAL_OPPORTUNITY_FORM_SLUG = (
 INVEST_HIGH_POTENTIAL_OPPORTUNITY_FORM_SUCCESS_SLUG = (
     'high-potential-opportunity-submit-success'
 )
+INVEST_UK_REGION_LANDING_PAGE_SLUG = 'uk-region-landing-page'
+INVEST_HOME_PAGE_SLUG = 'home-page'
 
 # Find A Supplier
 FIND_A_SUPPLIER_INDUSTRY_LANDING_SLUG = 'industries-landing-page'

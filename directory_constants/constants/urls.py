@@ -1,44 +1,84 @@
-GREAT_HOME = 'https://great.gov.uk/'
-GREAT_EXPORT_HOME = 'https://great.gov.uk/'
-CUSTOM_PAGE = 'https://great.gov.uk/custom/'
+import functools
+from urllib.parse import urljoin
 
-# EXPORTING PERSONAS
-EXPORTING_NEW = 'https://great.gov.uk/new/'
-EXPORTING_OCCASIONAL = 'https://great.gov.uk/occasional/'
-EXPORTING_REGULAR = 'https://great.gov.uk/regular/'
+from django.conf import settings
 
-# GUIDANCE/ARTICLE SECTIONS
-GUIDANCE_MARKET_RESEARCH = 'https://great.gov.uk/market-research/'
-GUIDANCE_CUSTOMER_INSIGHT = 'https://great.gov.uk/customer-insight/'
-GUIDANCE_FINANCE = 'https://great.gov.uk/finance/'
-GUIDANCE_BUSINESS_PLANNING = (
-    'https://great.gov.uk/business-planning/')
-GUIDANCE_GETTING_PAID = 'https://great.gov.uk/getting-paid/'
-GUIDANCE_OPERATIONS_AND_COMPLIANCE = (
-    'https://great.gov.uk/operations-and-compliance/')
+
+def get_url(url_name, default=None):
+    return getattr(settings, url_name, None) or default
+
 
 # SERVICES
-SERVICES_EVENTS = 'https://events.trade.gov.uk/'
-SERVICES_EXOPPS = 'https://great.gov.uk/export-opportunities/'
-SERVICES_FAB = 'https://find-a-buyer.export.great.gov.uk/'
-SERVICES_GET_FINANCE = (
-    'https://great.gov.uk/get-finance/')
-SERVICES_SOO = 'https://selling-online-overseas.export.great.gov.uk/'
+SERVICE_EXPORT_READINESS = get_url(
+    'DIRECTORY_CONSTANTS_URL_EXPORT_READINESS',
+    'https://www.great.gov.uk'
+)
+SERVICES_CONTACT_US = get_url(
+    'DIRECTORY_CONSTANTS_URL_CONTACT_US',
+    'https://contact-us.export.great.gov.uk'
+)
+SERVICES_INVEST = get_url(
+    'DIRECTORY_CONSTANTS_URL_INVEST',
+    'https://invest.great.gov.uk'
+)
+SERVICES_EVENTS = get_url(
+    'DIRECTORY_CONSTANTS_URL_EVENTS',
+    'https://www.events.trade.gov.uk'
+)
+SERVICES_SOO = get_url(
+    'DIRECTORY_CONSTANTS_URL_SELLING_ONLINE_OVERSEAS',
+    'https://selling-online-overseas.export.great.gov.uk'
+)
+SERVICES_FAS = get_url(
+    'DIRECTORY_CONSTANTS_URL_FIND_A_SUPPLIER',
+    'https://trade.great.gov.uk'
+)
+build_great_url = functools.partial(urljoin, SERVICE_EXPORT_READINESS)
+SERVICES_SSO = get_url(
+    'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
+    build_great_url('sso/')
+)
+SERVICES_EXOPPS = get_url(
+    'DIRECTORY_CONSTANTS_URL_EXPORT_OPPORTUNITIES',
+    build_great_url('export-opportunities/')
+)
+SERVICES_FAB = get_url(
+    'DIRECTORY_CONSTANTS_URL_FIND_A_BUYER',
+    build_great_url('find-a-buyer/')
+)
 
-# INFO
-INFO_CONTACT_US_DIRECTORY = (
-    'https://contact-us.export.great.gov.uk/directory/FeedbackForm/')
-INFO_CONTACT_US_SSO = (
-    'https://contact-us.export.great.gov.uk/single_sign_on/FeedbackForm/')
-INFO_TERMS_AND_CONDITIONS = 'https://great.gov.uk/terms-and-conditions/'
-INFO_ABOUT = 'https://great.gov.uk/about/'
-INFO_PRIVACY_AND_COOKIES = 'https://great.gov.uk/privacy-and-cookies/'
-INFO_DIT = (
+
+# Export readiness
+CUSTOM_PAGE = build_great_url('custom/')
+EXPORTING_NEW = build_great_url('new/')
+EXPORTING_OCCASIONAL = build_great_url('occasional/')
+EXPORTING_REGULAR = build_great_url('regular/')
+GUIDANCE_MARKET_RESEARCH = build_great_url('market-research/')
+GUIDANCE_CUSTOMER_INSIGHT = build_great_url('customer-insight/')
+GUIDANCE_FINANCE = build_great_url('finance/')
+GUIDANCE_BUSINESS_PLANNING = build_great_url('business-planning/')
+GUIDANCE_GETTING_PAID = build_great_url('getting-paid/')
+GUIDANCE_OPERATIONS_AND_COMPLIANCE = build_great_url(
+    'operations-and-compliance/'
+)
+GET_FINANCE = build_great_url('get-finance/')
+TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')
+ABOUT = build_great_url('about/')
+PRIVACY_AND_COOKIES = build_great_url('privacy-and-cookies/')
+DIT = (
     'https://www.gov.uk/government/organisations/'
-    'department-for-international-trade')
+    'department-for-international-trade'
+)
+PERFORMANCE_DASHBOARD = build_great_url('performance-dashboard/')
 
-# FEEDBACK
-FEEDBACK_FORM_DIRECTORY = (
-    'https://contact-us.export.great.gov.uk/directory/FeedbackForm')
-FEEDBACK_FORM_SSO = (
-    'https://contact-us.export.great.gov.uk/single_sign_on/FeedbackForm')
+# contact us
+build_contact_url = functools.partial(urljoin, SERVICES_CONTACT_US)
+FEEDBACK_FORM_DIRECTORY = build_contact_url('directory/FeedbackForm')
+FEEDBACK_FORM_SSO = build_contact_url('single_sign_on/FeedbackForm')
+CONTACT_US_DIRECTORY = build_great_url('directory/')
+CONTACT_US_SSO = build_contact_url('single_sign_on/FeedbackForm/')
+
+# Invest
+build_invest_url = functools.partial(urljoin, SERVICES_INVEST)
+INVEST_INDUSTRIES = build_invest_url('industries/')
+INVEST_SETUP_GUIDE = build_invest_url('uk-setup-guide/')

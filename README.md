@@ -21,7 +21,6 @@ To change the default value of urls add the following to your settings.py:
 | DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON          | https://www.great.gov.uk/sso/                         |
 | DIRECTORY_CONSTANTS_URL_EXPORT_OPPORTUNITIES    | https://www.great.gov.uk/export-opportunities/        |
 | DIRECTORY_CONSTANTS_URL_FIND_A_BUYER            | https://www.great.gov.uk/find-a-buyer/                |
-| DIRECTORY_CONSTANTS_URL_CONTACT_US              | https://contact-us.export.great.gov.uk                |
 | DIRECTORY_CONSTANTS_URL_INVEST                  | https://invest.great.gov.uk                           |
 | DIRECTORY_CONSTANTS_URL_EVENTS                  | https://www.events.trade.gov.uk                       |
 | DIRECTORY_CONSTANTS_URL_SELLING_ONLINE_OVERSEAS | https://selling-online-overseas.export.great.gov.uk   |

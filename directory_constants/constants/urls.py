@@ -13,10 +13,6 @@ SERVICE_EXPORT_READINESS = get_url(
     'DIRECTORY_CONSTANTS_URL_EXPORT_READINESS',
     'https://www.great.gov.uk'
 )
-SERVICES_CONTACT_US = get_url(
-    'DIRECTORY_CONSTANTS_URL_CONTACT_US',
-    'https://contact-us.export.great.gov.uk'
-)
 SERVICES_INVEST = get_url(
     'DIRECTORY_CONSTANTS_URL_INVEST',
     'https://invest.great.gov.uk'
@@ -65,18 +61,14 @@ GET_FINANCE = build_great_url('get-finance/')
 TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')
 ABOUT = build_great_url('about/')
 PRIVACY_AND_COOKIES = build_great_url('privacy-and-cookies/')
+PERFORMANCE_DASHBOARD = build_great_url('performance-dashboard/')
+FEEDBACK = build_great_url('contact/feedback/')
+CONTACT_US = build_great_url('contact/')
+
 DIT = (
     'https://www.gov.uk/government/organisations/'
     'department-for-international-trade'
 )
-PERFORMANCE_DASHBOARD = build_great_url('performance-dashboard/')
-
-# contact us
-build_contact_url = functools.partial(urljoin, SERVICES_CONTACT_US)
-FEEDBACK_FORM_DIRECTORY = build_contact_url('directory/FeedbackForm')
-FEEDBACK_FORM_SSO = build_contact_url('single_sign_on/FeedbackForm')
-CONTACT_US_DIRECTORY = build_great_url('directory/')
-CONTACT_US_SSO = build_contact_url('single_sign_on/FeedbackForm/')
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

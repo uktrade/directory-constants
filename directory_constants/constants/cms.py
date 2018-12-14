@@ -61,6 +61,7 @@ EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_INTERNATIONAL_SLUG = (
     'contact-international-success-form'
 )
 EXPORT_READINESS_MARKETING_PAGES_SLUG = 'export-readiness-marketing-pages'
+EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_SOO_SLUG = 'contact-soo-success-form'
 
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'

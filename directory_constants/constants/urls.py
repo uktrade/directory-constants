@@ -45,6 +45,21 @@ SERVICES_FAB = get_url(
 
 
 # Export readiness
+ADVICE_CREATE_AN_EXPORT_PLAN = build_great_url('advice/create-an-export-plan/')
+ADVICE_FIND_AN_EXPORT_MARKET = build_great_url('advice/find-an-export-market/')
+ADVICE_DEFINE_ROUTE_TO_MARKET = build_great_url(
+    'advice/define-route-to-market/')
+ADVICE_GET_EXPORT_FINANCE_AND_FUNDING = build_great_url(
+    'advice/get-export-finance-and-funding/')
+ADVICE_MANAGE_PAYMENT_FOR_EXPORT_ORDERS = build_great_url(
+    'advice/manage-payment-for-export-orders/')
+ADVICE_PREPARE_TO_DO_BUSINESS_IN_A_FOREIGN_COUNTRY = build_great_url(
+    'advice/prepare-to-do-business-in-a-foreign-country/')
+ADVICE_MANAGE_LEGAL_AND_ETHICAL_COMPLIANCE = build_great_url(
+    'advice/manage-legal-and-ethical-compliance/')
+ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
+    'advice/prepare-for-export-procedures-and-logistics/')
+
 CUSTOM_PAGE = build_great_url('custom/')
 EXPORTING_NEW = build_great_url('new/')
 EXPORTING_OCCASIONAL = build_great_url('occasional/')

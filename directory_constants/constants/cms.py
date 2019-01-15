@@ -61,6 +61,7 @@ EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_INTERNATIONAL_SLUG = (
     'contact-international-success-form'
 )
 EXPORT_READINESS_MARKETING_PAGES_SLUG = 'export-readiness-marketing-pages'
+EXPORT_READINESS_SITE_POLICY_PAGES_SLUG = 'export-readiness-site-policy-pages'
 EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_SOO_SLUG = 'contact-soo-success-form'
 EXPORT_READINESS_ADVICE_SLUG = 'advice'
 EXPORT_READINESS_HELP_ACCOUNT_COMPANY_NOT_FOUND_SLUG = 'company-not-found'

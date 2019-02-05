@@ -398,6 +398,7 @@ CMS_APP_CHOICES = [
     (cms.EXPORT_READINESS, 'Export Readiness'),
     (cms.INVEST, 'Invest'),
     (cms.COMPONENTS, 'Components'),
+    (cms.GREAT_INTERNATIONAL, 'Great International')
 ]
 
 

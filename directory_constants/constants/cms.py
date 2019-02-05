@@ -85,6 +85,10 @@ FIND_A_SUPPLIER_INDUSTRY_LANDING_SLUG = 'industries-landing-page'
 FIND_A_SUPPLIER_LANDING_SLUG = 'landing-page'
 FIND_A_SUPPLIER_INDUSTRY_CONTACT_SLUG = 'industry-contact'
 
+# Great International
+GREAT_INTERNATIONAL_MARKETING_PAGES_SLUG = (
+    'great-international-marketing-pages'
+)
 
 # CMS page types
 FIND_A_SUPPLIER_INDUSTRY_TYPE = 'find_a_supplier.IndustryPage'

@@ -9,6 +9,7 @@ GREAT_INTERNATIONAL = 'GREAT_INTERNATIONAL'
 # CMS page slugs
 COMPONENTS_BANNER_DOMESTIC_SLUG = 'eu-exit-banner-domestic'
 COMPONENTS_BANNER_INTERNATIONAL_SLUG = 'eu-exit-banner-international'
+COMPONENTS_BANNER_DOMESTIC_EU_EXIT_SLUG = 'eu-exit-banner-eu-exit-domestic'
 # Export Readiness
 EXPORT_READINESS_HOME_SLUG = 'home'
 EXPORT_READINESS_HOME_INTERNATIONAL_SLUG = 'international'

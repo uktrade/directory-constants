@@ -89,6 +89,8 @@ FIND_A_SUPPLIER_INDUSTRY_CONTACT_SLUG = 'industry-contact'
 GREAT_INTERNATIONAL_MARKETING_PAGES_SLUG = (
     'great-international-marketing-pages'
 )
+GREAT_INTERNATIONAL_UK_HQ_PAGES_SLUG = 'great-international-uk-hq-pages'
+
 
 # CMS page types
 FIND_A_SUPPLIER_INDUSTRY_TYPE = 'find_a_supplier.IndustryPage'

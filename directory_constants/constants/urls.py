@@ -42,6 +42,10 @@ SERVICES_FAB = get_url(
     'DIRECTORY_CONSTANTS_URL_FIND_A_BUYER',
     build_great_url('find-a-buyer/')
 )
+SERVICES_SSO_PROFILE = get_url(
+    'DIRECTORY_CONSTANTS_URL_SSO_PROFILE',
+    build_great_url('profile/')
+)
 
 
 # Export readiness

@@ -67,6 +67,9 @@ EXPORT_READINESS_SITE_POLICY_PAGES_SLUG = 'export-readiness-site-policy-pages'
 EXPORT_READINESS_CONTACT_US_FORM_SUCCESS_SOO_SLUG = 'contact-soo-success-form'
 EXPORT_READINESS_ADVICE_SLUG = 'advice'
 EXPORT_READINESS_HELP_ACCOUNT_COMPANY_NOT_FOUND_SLUG = 'company-not-found'
+EXPORT_READINESS_HELP_ACCOUNT_SOLE_TRADER_COMPANY_NOT_FOUND_SLUG = (
+    'sole-trader-company-not-found'
+)
 
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'

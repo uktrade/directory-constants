@@ -10,7 +10,7 @@ GREAT_INTERNATIONAL = 'GREAT_INTERNATIONAL'
 COMPONENTS_BANNER_DOMESTIC_SLUG = 'eu-exit-banner-domestic'
 COMPONENTS_BANNER_INTERNATIONAL_SLUG = 'eu-exit-banner-international'
 # Export Readiness
-GREATE_HOME_SLUG = 'home'
+GREAT_HOME_SLUG = 'home'
 GREAT_HOME_INTERNATIONAL_SLUG = 'international'
 GREAT_EUEXIT_FORM_SUCCESS_SLUG = 'eu-exit-form-success'
 GREAT_EUEXIT_INTERNATIONAL_FORM_SLUG = 'eu-exit-international'

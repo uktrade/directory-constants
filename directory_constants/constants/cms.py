@@ -38,25 +38,15 @@ GREAT_PERFORMANCE_DASHBOARD_SOO_SLUG = (
 GREAT_PERFORMANCE_DASHBOARD_TRADE_PROFILE_SLUG = (
     'performance-dashboard-trade-profiles'
 )
-GREAT_PERFORMANCE_DASHBOARD_INVEST_SLUG = (
-    'performance-dashboard-invest'
-)
-GREAT_PERFORMANCE_DASHBOARD_NOTES_SLUG = (
-    'performance-dashboard-notes'
-)
+GREAT_PERFORMANCE_DASHBOARD_INVEST_SLUG = 'performance-dashboard-invest'
+GREAT_PERFORMANCE_DASHBOARD_NOTES_SLUG = 'performance-dashboard-notes'
 GREAT_CONTACT_US_FORM_SUCCESS_SLUG = 'contact-success-form'
-GREAT_CONTACT_US_FORM_SUCCESS_EVENTS_SLUG = (
-    'contact-events-success-form'
-)
-GREAT_CONTACT_US_FORM_SUCCESS_DSO_SLUG = (
-    'contact-dso-success-form'
-)
+GREAT_CONTACT_US_FORM_SUCCESS_EVENTS_SLUG = 'contact-events-success-form'
+GREAT_CONTACT_US_FORM_SUCCESS_DSO_SLUG = 'contact-dso-success-form'
 GREAT_CONTACT_US_FORM_SUCCESS_EXPORT_ADVICE_SLUG = (
     'contact-export-advice-success-form'
 )
-GREAT_CONTACT_US_FORM_SUCCESS_FEEDBACK_SLUG = (
-    'contact-feedback-success-form'
-)
+GREAT_CONTACT_US_FORM_SUCCESS_FEEDBACK_SLUG = 'contact-feedback-success-form'
 GREAT_CONTACT_US_FORM_SUCCESS_FIND_COMPANIES_SLUG = (
     'contact-find-companies-success-form'
 )
@@ -75,9 +65,7 @@ GREAT_HELP_ACCOUNT_SOLE_TRADER_ADDRESS_NOT_FOUND_SLUG = (
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'
 INVEST_GUIDE_LANDING_PAGE_SLUG = 'setup-guide-landing-page'
-INVEST_HIGH_POTENTIAL_OPPORTUNITY_FORM_SLUG = (
-    'high-potential-opportunity-form'
-)
+INVEST_HIGH_POTENTIAL_OPPORTUNITY_FORM_SLUG = 'high-potential-opportunity-form'
 INVEST_HIGH_POTENTIAL_OPPORTUNITY_FORM_SUCCESS_SLUG = (
     'high-potential-opportunity-submit-success'
 )

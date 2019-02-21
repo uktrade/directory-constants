@@ -413,3 +413,34 @@ with open(country_fixture_path, 'r') as f:
             if 'end-date' not in item:
                 COUNTRY_CHOICES.append((item['country'], item['name']))
     COUNTRY_CHOICES.sort(key=itemgetter(1))
+
+
+EU_COUNTRIES = (
+    'AT',  # Austria
+    'BE',  # Belgium
+    'BG',  # Bulgaria
+    'HR',  # Croatia
+    'CY',  # Cyprus
+    'CZ',  # Czechia
+    'DK',  # Denmark
+    'EE',  # Estonia
+    'FI',  # Finland
+    'FR',  # France
+    'DE',  # Germany
+    'GR',  # Greece
+    'HU',  # Hungary
+    'IE',  # Ireland
+    'IT',  # Italy
+    'LV',  # Latvia
+    'LT',  # Lithuania
+    'LU',  # Luxembourg
+    'MT',  # Malta
+    'NL',  # Netherlands
+    'PL',  # Poland
+    'PT',  # Portugal
+    'RO',  # Romania
+    'SK',  # Slovakia
+    'SI',  # Slovenia
+    'ES',  # Spain
+    'SE'   # Sweden
+)

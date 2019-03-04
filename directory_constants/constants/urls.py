@@ -52,17 +52,23 @@ SERVICES_SSO_PROFILE = get_url(
 ADVICE_CREATE_AN_EXPORT_PLAN = build_great_url('advice/create-an-export-plan/')
 ADVICE_FIND_AN_EXPORT_MARKET = build_great_url('advice/find-an-export-market/')
 ADVICE_DEFINE_ROUTE_TO_MARKET = build_great_url(
-    'advice/define-route-to-market/')
+    'advice/define-route-to-market/'
+)
 ADVICE_GET_EXPORT_FINANCE_AND_FUNDING = build_great_url(
-    'advice/get-export-finance-and-funding/')
+    'advice/get-export-finance-and-funding/'
+)
 ADVICE_MANAGE_PAYMENT_FOR_EXPORT_ORDERS = build_great_url(
-    'advice/manage-payment-for-export-orders/')
+    'advice/manage-payment-for-export-orders/'
+)
 ADVICE_PREPARE_TO_DO_BUSINESS_IN_A_FOREIGN_COUNTRY = build_great_url(
-    'advice/prepare-to-do-business-in-a-foreign-country/')
+    'advice/prepare-to-do-business-in-a-foreign-country/'
+)
 ADVICE_MANAGE_LEGAL_AND_ETHICAL_COMPLIANCE = build_great_url(
-    'advice/manage-legal-and-ethical-compliance/')
+    'advice/manage-legal-and-ethical-compliance/'
+)
 ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
-    'advice/prepare-for-export-procedures-and-logistics/')
+    'advice/prepare-for-export-procedures-and-logistics/'
+)
 
 GET_FINANCE = build_great_url('get-finance/')
 TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')

@@ -48,34 +48,28 @@ SERVICES_SSO_PROFILE = get_url(
 )
 
 
-# Export readiness
+# Export readiness/great domestic article sections
 ADVICE_CREATE_AN_EXPORT_PLAN = build_great_url('advice/create-an-export-plan/')
 ADVICE_FIND_AN_EXPORT_MARKET = build_great_url('advice/find-an-export-market/')
 ADVICE_DEFINE_ROUTE_TO_MARKET = build_great_url(
-    'advice/define-route-to-market/')
-ADVICE_GET_EXPORT_FINANCE_AND_FUNDING = build_great_url(
-    'advice/get-export-finance-and-funding/')
-ADVICE_MANAGE_PAYMENT_FOR_EXPORT_ORDERS = build_great_url(
-    'advice/manage-payment-for-export-orders/')
-ADVICE_PREPARE_TO_DO_BUSINESS_IN_A_FOREIGN_COUNTRY = build_great_url(
-    'advice/prepare-to-do-business-in-a-foreign-country/')
-ADVICE_MANAGE_LEGAL_AND_ETHICAL_COMPLIANCE = build_great_url(
-    'advice/manage-legal-and-ethical-compliance/')
-ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
-    'advice/prepare-for-export-procedures-and-logistics/')
-
-CUSTOM_PAGE = build_great_url('custom/')
-EXPORTING_NEW = build_great_url('new/')
-EXPORTING_OCCASIONAL = build_great_url('occasional/')
-EXPORTING_REGULAR = build_great_url('regular/')
-GUIDANCE_MARKET_RESEARCH = build_great_url('market-research/')
-GUIDANCE_CUSTOMER_INSIGHT = build_great_url('customer-insight/')
-GUIDANCE_FINANCE = build_great_url('finance/')
-GUIDANCE_BUSINESS_PLANNING = build_great_url('business-planning/')
-GUIDANCE_GETTING_PAID = build_great_url('getting-paid/')
-GUIDANCE_OPERATIONS_AND_COMPLIANCE = build_great_url(
-    'operations-and-compliance/'
+    'advice/define-route-to-market/'
 )
+ADVICE_GET_EXPORT_FINANCE_AND_FUNDING = build_great_url(
+    'advice/get-export-finance-and-funding/'
+)
+ADVICE_MANAGE_PAYMENT_FOR_EXPORT_ORDERS = build_great_url(
+    'advice/manage-payment-for-export-orders/'
+)
+ADVICE_PREPARE_TO_DO_BUSINESS_IN_A_FOREIGN_COUNTRY = build_great_url(
+    'advice/prepare-to-do-business-in-a-foreign-country/'
+)
+ADVICE_MANAGE_LEGAL_AND_ETHICAL_COMPLIANCE = build_great_url(
+    'advice/manage-legal-and-ethical-compliance/'
+)
+ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
+    'advice/prepare-for-export-procedures-and-logistics/'
+)
+
 GET_FINANCE = build_great_url('get-finance/')
 TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')
 ABOUT = build_great_url('about/')
@@ -89,7 +83,24 @@ DIT = (
     'department-for-international-trade'
 )
 
+# Great international
+GREAT_INTERNATIONAL = build_great_url('international/')
+
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)
 INVEST_INDUSTRIES = build_invest_url('industries/')
 INVEST_SETUP_GUIDE = build_invest_url('uk-setup-guide/')
+
+# Legacy great/export readiness article/persona/triage urls
+CUSTOM_PAGE = build_great_url('custom/')
+EXPORTING_NEW = build_great_url('new/')
+EXPORTING_OCCASIONAL = build_great_url('occasional/')
+EXPORTING_REGULAR = build_great_url('regular/')
+GUIDANCE_MARKET_RESEARCH = build_great_url('market-research/')
+GUIDANCE_CUSTOMER_INSIGHT = build_great_url('customer-insight/')
+GUIDANCE_FINANCE = build_great_url('finance/')
+GUIDANCE_BUSINESS_PLANNING = build_great_url('business-planning/')
+GUIDANCE_GETTING_PAID = build_great_url('getting-paid/')
+GUIDANCE_OPERATIONS_AND_COMPLIANCE = build_great_url(
+    'operations-and-compliance/'
+)

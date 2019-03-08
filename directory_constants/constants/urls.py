@@ -9,10 +9,11 @@ def get_url(url_name, default=None):
 
 
 # SERVICES
-SERVICE_EXPORT_READINESS = get_url(
-    'DIRECTORY_CONSTANTS_URL_EXPORT_READINESS',
+SERVICES_GREAT_DOMESTIC = get_url(
+    'DIRECTORY_CONSTANTS_URL_GREAT_DOMESTIC',
     'https://www.great.gov.uk'
 )
+build_great_url = functools.partial(urljoin, SERVICES_GREAT_DOMESTIC)
 SERVICES_INVEST = get_url(
     'DIRECTORY_CONSTANTS_URL_INVEST',
     'https://invest.great.gov.uk'
@@ -29,7 +30,8 @@ SERVICES_FAS = get_url(
     'DIRECTORY_CONSTANTS_URL_FIND_A_SUPPLIER',
     'https://trade.great.gov.uk'
 )
-build_great_url = functools.partial(urljoin, SERVICE_EXPORT_READINESS)
+build_fas_url = functools.partial(urljoin, SERVICES_FAS)
+FAS_SEARCH = build_fas_url('search/')
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')
@@ -46,7 +48,6 @@ SERVICES_SSO_PROFILE = get_url(
     'DIRECTORY_CONSTANTS_URL_SSO_PROFILE',
     build_great_url('profile/')
 )
-
 
 # Export readiness/great domestic article sections
 ADVICE_CREATE_AN_EXPORT_PLAN = build_great_url('advice/create-an-export-plan/')
@@ -85,6 +86,12 @@ DIT = (
 
 # Great international
 GREAT_INTERNATIONAL = build_great_url('international/')
+GREAT_INTERNATIONAL_DOING_BUSINESS_WITH_THE_UK = build_great_url(
+    'international/doing-business-with-the-uk/'
+)
+GREAT_INTERNATIONAL_INDUSTRIES = build_great_url(
+    'international/industries/'
+)
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

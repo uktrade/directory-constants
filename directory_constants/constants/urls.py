@@ -9,11 +9,11 @@ def get_url(url_name, default=None):
 
 
 # SERVICES
-SERVICE_EXPORT_READINESS = get_url(
-    'DIRECTORY_CONSTANTS_URL_EXPORT_READINESS',
+SERVICES_GREAT_DOMESTIC = get_url(
+    'DIRECTORY_CONSTANTS_URL_GREAT_DOMESTIC',
     'https://www.great.gov.uk'
 )
-build_great_url = functools.partial(urljoin, SERVICE_EXPORT_READINESS)
+build_great_url = functools.partial(urljoin, SERVICES_GREAT_DOMESTIC)
 SERVICES_INVEST = get_url(
     'DIRECTORY_CONSTANTS_URL_INVEST',
     'https://invest.great.gov.uk'

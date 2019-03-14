@@ -72,6 +72,7 @@ ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
 )
 
 GET_FINANCE = build_great_url('get-finance/')
+GREAT_DOMESTIC_NEWS = build_great_url('news/')
 TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')
 ABOUT = build_great_url('about/')
 PRIVACY_AND_COOKIES = build_great_url('privacy-and-cookies/')
@@ -86,8 +87,9 @@ DIT = (
 
 # Great international
 GREAT_INTERNATIONAL = build_great_url('international/')
-GREAT_INTERNATIONAL_DOING_BUSINESS_WITH_THE_UK = build_great_url(
-    'international/doing-business-with-the-uk/'
+GREAT_INTERNATIONAL_NEWS = build_great_url('international/news/')
+GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = build_great_url(
+    'international/how-to-do-business-with-the-uk/'
 )
 GREAT_INTERNATIONAL_INDUSTRIES = build_great_url(
     'international/industries/'

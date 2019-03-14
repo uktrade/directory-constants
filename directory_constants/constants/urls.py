@@ -50,6 +50,7 @@ SERVICES_SSO_PROFILE = get_url(
 )
 
 # Export readiness/great domestic article sections
+ADVICE = build_great_url('advice/')
 ADVICE_CREATE_AN_EXPORT_PLAN = build_great_url('advice/create-an-export-plan/')
 ADVICE_FIND_AN_EXPORT_MARKET = build_great_url('advice/find-an-export-market/')
 ADVICE_DEFINE_ROUTE_TO_MARKET = build_great_url(
@@ -71,6 +72,7 @@ ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
     'advice/prepare-for-export-procedures-and-logistics/'
 )
 
+MARKETS = build_great_url('markets/')
 GET_FINANCE = build_great_url('get-finance/')
 GREAT_DOMESTIC_NEWS = build_great_url('news/')
 TERMS_AND_CONDITIONS = build_great_url('terms-and-conditions/')

@@ -98,6 +98,8 @@ GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = build_great_url(
 GREAT_INTERNATIONAL_INDUSTRIES = build_great_url(
     'international/industries/'
 )
+GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = build_great_url(
+    'international/how-to-setup-in-the-uk')
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

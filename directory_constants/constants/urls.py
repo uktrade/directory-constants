@@ -72,7 +72,6 @@ ADVICE_PREPARE_FOR_EXPORT_PROCEDURES_AND_LOGISTICS = build_great_url(
     'advice/prepare-for-export-procedures-and-logistics/'
 )
 
-SEARCH = build_great_url('search/')
 MARKETS = build_great_url('markets/')
 GET_FINANCE = build_great_url('get-finance/')
 GREAT_DOMESTIC_NEWS = build_great_url('news/')

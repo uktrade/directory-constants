@@ -62,6 +62,8 @@ GREAT_HELP_ACCOUNT_COMPANY_NOT_FOUND_SLUG = 'company-not-found'
 GREAT_HELP_ACCOUNT_SOLE_TRADER_ADDRESS_NOT_FOUND_SLUG = (
     'sole-trader-address-not-found'
 )
+GREAT_CONTACT_US_FORM_SUCCESS_BEIS_SLUG = 'contact-beis-success'
+GREAT_CONTACT_US_FORM_SUCCESS_DEFRA_SLUG = 'contact-defra-success'
 
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'

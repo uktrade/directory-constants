@@ -26,6 +26,7 @@ GREAT_HELP_VERIFICATION_CODE_ENTER_SLUG = 'verification-letter-code'
 GREAT_HELP_VERIFICATION_CODE_LETTER_SLUG = 'no-verification-letter'
 GREAT_HELP_VERIFICATION_CODE_MISSING_SLUG = 'verification-missing'
 GREAT_HELP_EXOPP_NO_RESPONSE = 'opportunity-no-response'
+GREAT_HELP_EXPORTING_TO_UK_SLUG = 'exporting-to-the-uk'
 GREAT_EU_EXIT_DOMESTIC_NEWS_SLUG = 'eu-exit-news'
 GREAT_EU_EXIT_INTERNATIONAL_NEWS_SLUG = 'international-eu-exit-news'
 GREAT_PERFORMANCE_DASHBOARD_SLUG = 'performance-dashboard'
@@ -61,6 +62,8 @@ GREAT_HELP_ACCOUNT_COMPANY_NOT_FOUND_SLUG = 'company-not-found'
 GREAT_HELP_ACCOUNT_SOLE_TRADER_ADDRESS_NOT_FOUND_SLUG = (
     'sole-trader-address-not-found'
 )
+GREAT_CONTACT_US_FORM_SUCCESS_BEIS_SLUG = 'contact-beis-success'
+GREAT_CONTACT_US_FORM_SUCCESS_DEFRA_SLUG = 'contact-defra-success'
 
 # Invest
 INVEST_SECTOR_LANDING_PAGE_SLUG = 'sector-landing-page'

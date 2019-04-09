@@ -14,6 +14,12 @@ SERVICES_GREAT_DOMESTIC = get_url(
     'https://www.great.gov.uk'
 )
 build_great_url = functools.partial(urljoin, SERVICES_GREAT_DOMESTIC)
+SERVICES_GREAT_INTERNATIONAL = get_url(
+    'DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL',
+    'https://www.great.gov.uk/international/'
+)
+build_great_international_url = functools.partial(
+    urljoin, SERVICES_GREAT_INTERNATIONAL)
 SERVICES_INVEST = get_url(
     'DIRECTORY_CONSTANTS_URL_INVEST',
     'https://invest.great.gov.uk'
@@ -90,18 +96,15 @@ DIT = (
 )
 
 # Great international
-GREAT_INTERNATIONAL = build_great_url('international/')
-GREAT_INTERNATIONAL_NEWS = build_great_url('international/news/')
-GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = build_great_url(
-    'international/how-to-do-business-with-the-uk/'
-)
-GREAT_INTERNATIONAL_INDUSTRIES = build_great_url(
-    'international/industries/'
-)
-GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = build_great_url(
-    'international/how-to-setup-in-the-uk')
-GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = build_great_url(
-    'international/capital-invest')
+GREAT_INTERNATIONAL = SERVICES_GREAT_INTERNATIONAL
+GREAT_INTERNATIONAL_NEWS = build_great_international_url('news/')
+GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = \
+    build_great_international_url('how-to-do-business-with-the-uk/')
+GREAT_INTERNATIONAL_INDUSTRIES = build_great_international_url('industries/')
+GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = \
+    build_great_international_url('how-to-setup-in-the-uk')
+GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
+    build_great_international_url('capital-invest')
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

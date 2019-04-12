@@ -103,7 +103,7 @@ CONTACT_OPTIONS = (
     ('PHONE', 'Phone'),
 )
 
-LANGUAGES = [
+EXPERTISE_LANGUAGES = [
     ('ab', 'Abkhazian'),
     ('aa', 'Afar'),
     ('af', 'Afrikaans'),
@@ -297,7 +297,7 @@ EU_COUNTRIES = {
     'SE': 'Sweden'
 }
 
-REGION_CHOICES = [
+EXPERTISE_REGION_CHOICES = [
     ('NORTH_EAST', 'North East'),
     ('NORTH_WEST', 'North West'),
     ('YORKSHIRE_AND_HUMBER', 'Yorkshire and the Humber'),

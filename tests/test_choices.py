@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-from directory_constants.constants import choices
+from directory_constants import choices
 
 
 def test_country_choices_structure():

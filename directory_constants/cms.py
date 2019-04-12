@@ -9,6 +9,7 @@ GREAT_INTERNATIONAL = 'GREAT_INTERNATIONAL'
 # CMS page slugs
 COMPONENTS_BANNER_DOMESTIC_SLUG = 'eu-exit-banner-domestic'
 COMPONENTS_BANNER_INTERNATIONAL_SLUG = 'eu-exit-banner-international'
+
 # Export Readiness
 GREAT_HOME_SLUG = 'home'
 GREAT_HOME_INTERNATIONAL_SLUG = 'international'
@@ -25,7 +26,7 @@ GREAT_HELP_COMPANIES_HOUSE_LOGIN_SLUG = 'companies-house-login'
 GREAT_HELP_VERIFICATION_CODE_ENTER_SLUG = 'verification-letter-code'
 GREAT_HELP_VERIFICATION_CODE_LETTER_SLUG = 'no-verification-letter'
 GREAT_HELP_VERIFICATION_CODE_MISSING_SLUG = 'verification-missing'
-GREAT_HELP_EXOPP_NO_RESPONSE = 'opportunity-no-response'
+GREAT_HELP_EXOPPS_NO_RESPONSE_SLUG = 'opportunity-no-response'
 GREAT_HELP_EXPORTING_TO_UK_SLUG = 'exporting-to-the-uk'
 GREAT_EU_EXIT_DOMESTIC_NEWS_SLUG = 'eu-exit-news'
 GREAT_EU_EXIT_INTERNATIONAL_NEWS_SLUG = 'international-eu-exit-news'

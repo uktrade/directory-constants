@@ -3,7 +3,7 @@
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
 [![pypi-image]][pypi]
-[![semver-image]][calver]
+[![semver-image]][semver]
 
 ---
 

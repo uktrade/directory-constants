@@ -38,6 +38,10 @@ SERVICES_FAS = get_url(
 )
 build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 FAS_SEARCH = build_fas_url('search/')
+FAS_INVESTMENT_SUPPORT_DIRECTORY = \
+    build_fas_url('investment-support-directory/')
+FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
+    build_fas_url('investment-support-directory/search')
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')
@@ -105,14 +109,6 @@ GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = \
     build_great_international_url('how-to-setup-in-the-uk')
 GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
     build_great_international_url('capital-invest')
-GREAT_INTERNATIONAL_INVESTMENT_SUPPORT_DIRECTORY = \
-    build_great_international_url(
-        'https://www.great.gov.uk/trade/investment-support-directory/'
-    )
-GREAT_INTERNATIONAL_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
-    build_great_international_url(
-        'https://www.great.gov.uk/trade/investment-support-directory/search'
-    )
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

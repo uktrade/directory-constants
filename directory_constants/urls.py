@@ -41,7 +41,7 @@ FAS_SEARCH = build_fas_url('search/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY = \
     build_fas_url('investment-support-directory/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
-    build_fas_url('investment-support-directory/search')
+    build_fas_url('investment-support-directory/search/')
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')

@@ -38,6 +38,10 @@ SERVICES_FAS = get_url(
 )
 build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 FAS_SEARCH = build_fas_url('search/')
+FAS_INVESTMENT_SUPPORT_DIRECTORY = \
+    build_fas_url('investment-support-directory/')
+FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
+    build_fas_url('investment-support-directory/search/')
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')

@@ -114,6 +114,7 @@ GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)
 INVEST_INDUSTRIES = build_invest_url('industries/')
 INVEST_SETUP_GUIDE = build_invest_url('uk-setup-guide/')
+INVEST_CONTACT_US = build_invest_url('contact/')
 
 # Legacy great/export readiness article/persona/triage urls
 CUSTOM_PAGE = build_great_url('custom/')

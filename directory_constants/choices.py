@@ -2,7 +2,7 @@ import json
 from operator import itemgetter
 import os
 
-from directory_constants import cms, sectors
+from directory_constants import cms, expertise, sectors
 
 
 INDUSTRIES = (
@@ -154,7 +154,7 @@ EXPERTISE_LANGUAGES = [
     ('lg', 'Ganda'),
     ('ka', 'Georgian'),
     ('de', 'German'),
-    ('el ', 'Greek'),
+    ('el', 'Greek'),
     ('gn', 'Guarani'),
     ('gu', 'Gujarati'),
     ('ht', 'Haitian; Haitian Creole'),
@@ -300,16 +300,31 @@ EU_COUNTRIES = {
 EXPERTISE_REGION_CHOICES = [
     ('NORTH_EAST', 'North East'),
     ('NORTH_WEST', 'North West'),
+    ('NORTHERN_IRELAND', 'Northern Ireland'),
     ('YORKSHIRE_AND_HUMBER', 'Yorkshire and the Humber'),
     ('EAST_MIDLANDS', 'East Midlands'),
     ('WEST_MIDLANDS', 'West Midlands'),
-    ('EASTERN', 'Eastern'),
+    ('EASTERN', 'East of England'),
     ('LONDON', 'London'),
     ('SOUTH_EAST', 'South East'),
     ('SOUTH_WEST', 'South West'),
     ('SCOTLAND', 'Scotland'),
     ('WALES', 'Wales'),
 ]
+
+EXPERTISE_FINANCIAL = [(i, i) for i in expertise.FINANCIAL]
+
+EXPERTISE_MANAGEMENT_CONSULTING = [
+    (i, i) for i in expertise.MANAGEMENT_CONSULTING
+]
+
+EXPERTISE_HUMAN_RESOURCES = [(i, i) for i in expertise.HUMAN_RESOURCES]
+
+EXPERTISE_LEGAL = [(i, i) for i in expertise.LEGAL]
+
+EXPERTISE_PUBLICITY = [(i, i) for i in expertise.PUBLICITY]
+
+EXPERTISE_BUSINESS_SUPPORT = [(i, i) for i in expertise.BUSINESS_SUPPORT]
 
 LEAD_GENERATION_EXPORT_DESTINATIONS = (
     ('CN', 'China'),

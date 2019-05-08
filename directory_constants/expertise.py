@@ -1,53 +1,53 @@
 FINANCIAL = [
-    'Opening bank accounts',
-    'Accounting and Tax (including registration for VAT and PAYE)',
+    'Accounting and tax',
     'Insurance',
-    'Raising Capital',
+    'Mergers and acquisitions',
+    'Opening bank accounts',
+    'Raising capital',
     'Regulatory support',
-    'Mergers and Acquisitions',
 ]
 
 MANAGEMENT_CONSULTING = [
     'Business development',
+    'Commercial and pricing strategy',
     'Product safety regulation and compliance',
-    'Commercial/pricing strategy',
-    'Workforce development',
-    'Strategy & long-term planning',
     'Risk consultation',
+    'Strategy and long-term planning',
+    'Workforce development',
 ]
 
 HUMAN_RESOURCES = [
-    'Staff management & progression',
-    'Onboarding including new starter support and contracts of employment',
+    'Employment and talent research',
     'Payroll',
-    'Salary benchmarking and employee benefits ',
+    'Salary benchmarking and employee benefits',
+    'Sourcing and hiring',
+    'Staff management and progression',
+    'Staff onboarding',
     'Succession planning',
-    'Employment & talent research',
-    'Sourcing and Hiring',
 ]
 
 LEGAL = [
     'Company incorporation',
+    'Data protection and information assurance',
     'Employment',
     'Immigration',
-    'Land use planning',
     'Intellectual property',
-    'Data Protection and Information Assurance',
+    'Land use planning',
 ]
 
 PUBLICITY = [
-    'Public Relations',
-    'Branding',
-    'Social Media',
-    'Public Affairs',
     'Advertising',
+    'Branding',
     'Marketing',
+    'Public affairs',
+    'Public relations',
+    'Social media',
+    'Translation services',
 ]
 
 BUSINESS_SUPPORT = [
     'Business relocation',
+    'Facilities (such as WiFI or electricity)',
     'Planning consultants',
-    'Facilities (water, wifi, electricity)',
-    'Translation services',
-    'Staff and family relocation including schooling for children',
+    'Staff and family relocation',
 ]

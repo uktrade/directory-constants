@@ -35,7 +35,7 @@ LEGAL = [
     'Land use planning',
 ]
 
-PUBLICITY_AND_COMMUNICATIONS = [
+PUBLICITY = [
     'Advertising',
     'Branding',
     'Marketing',

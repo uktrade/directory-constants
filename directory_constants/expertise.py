@@ -4,7 +4,7 @@ FINANCIAL = [
     'Mergers and acquisitions',
     'Opening bank accounts',
     'Raising capital',
-    'Regulatory support',    
+    'Regulatory support',
 ]
 
 MANAGEMENT_CONSULTING = [
@@ -13,7 +13,7 @@ MANAGEMENT_CONSULTING = [
     'Product safety regulation and compliance',
     'Risk consultation',
     'Strategy and long-term planning',
-    'Workforce development', 
+    'Workforce development',
 ]
 
 HUMAN_RESOURCES = [
@@ -23,7 +23,7 @@ HUMAN_RESOURCES = [
     'Sourcing and hiring',
     'Staff management and progression',
     'Staff onboarding',
-    'Succession planning'
+    'Succession planning',
 ]
 
 LEGAL = [
@@ -42,7 +42,7 @@ PUBLICITY_AND_COMMUNICATIONS = [
     'Public affairs',
     'Public relations',
     'Social media',
-    'Translation services', 
+    'Translation services',
 ]
 
 BUSINESS_SUPPORT = [

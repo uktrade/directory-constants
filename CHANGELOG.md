@@ -1,10 +1,23 @@
 # Changelog
 
+## [16.6.0](https://pypi.org/project/directory-constants/16.6.0/) (2019-05-15)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/97/files)
+
+### Implemented enhancements
+- Added `how-to-setup-in-the-uk/uk-tax-and-incentives//` to great international urls
+
 ## [16.5.0](https://pypi.org/project/directory-constants/16.5.0/) (2019-05-15)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/96/files)
 
 ### Implemented enhancements
 - Added `how-to-setup-in-the-uk/uk-visas-and-migration/` to great international urls
+
+
+## [16.4.0](https://pypi.org/project/directory-constants/16.4.0/) (2019-05-08)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/95/files)
+
+### Implemented enhancements
+- Changes to expertise.py
 
 
 ## [16.3.0](https://pypi.org/project/directory-constants/16.3.0/) (2019-05-02)

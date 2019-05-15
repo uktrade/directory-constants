@@ -109,6 +109,10 @@ GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = \
     build_great_international_url('how-to-setup-in-the-uk')
 GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
     build_great_international_url('capital-invest')
+GREAT_INTERNATIONAL_HOW_TO_SET_UP_VISAS_AND_MIGRATION = \
+    build_great_international_url(
+        'how-to-setup-in-the-uk/uk-visas-and-migration/'
+    )
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

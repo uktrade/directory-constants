@@ -113,6 +113,10 @@ GREAT_INTERNATIONAL_HOW_TO_SET_UP_VISAS_AND_MIGRATION = \
     build_great_international_url(
         'how-to-setup-in-the-uk/uk-visas-and-migration/'
     )
+GREAT_INTERNATIONAL_HOW_TO_SET_UP_TAX_AND_INCENTIVES = \
+    build_great_international_url(
+        'how-to-setup-in-the-uk/uk-tax-and-incentives/'
+    )
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

@@ -26,7 +26,7 @@ SERVICES_INVEST = get_url(
 )
 SERVICES_EVENTS = get_url(
     'DIRECTORY_CONSTANTS_URL_EVENTS',
-    'https://www.events.trade.gov.uk'
+    'https://www.events.great.gov.uk'
 )
 SERVICES_SOO = get_url(
     'DIRECTORY_CONSTANTS_URL_SELLING_ONLINE_OVERSEAS',

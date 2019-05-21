@@ -1,5 +1,11 @@
 # Changelog
 
+## [16.7.0](https://pypi.org/project/directory-constants/16.7.0/) (2019-05-21)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/98/files)
+
+### Implemented enhancements
+- Updated to new events url
+
 ## [16.6.0](https://pypi.org/project/directory-constants/16.6.0/) (2019-05-15)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/97/files)
 

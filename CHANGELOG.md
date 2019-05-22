@@ -34,6 +34,7 @@
 
 ### Fixed bugs:
 - Removed errant space from Greek language in `EXPERTISE_LANGUAGES`
+- TT-1487 403 to work around for AWS WAF error 
 
 ## [16.2.0](https://pypi.org/project/directory-constants/16.2.0/) (2019-04-26)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/93/files)

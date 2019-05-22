@@ -1,10 +1,18 @@
 # Changelog
 
+## [16.7.1](https://pypi.org/project/directory-constants/16.7.1/) (2019-05-21)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/99/files)
+
+### Implemented enhancements
+- Change order of expertise work around for 403 AWS WAF
+
+
 ## [16.7.0](https://pypi.org/project/directory-constants/16.7.0/) (2019-05-21)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/98/files)
 
 ### Implemented enhancements
 - Updated to new events url
+
 
 ## [16.6.0](https://pypi.org/project/directory-constants/16.6.0/) (2019-05-15)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/97/files)
@@ -46,6 +54,3 @@
 
 ### Implemented enhancements
 - Added `investment-support-directory` and `investment-support-directory/search` to FAS urls
-
-### Fixed bugs:
-- TT-1487 403 to work around for AWS WAF error 

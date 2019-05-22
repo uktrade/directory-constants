@@ -46,3 +46,6 @@
 
 ### Implemented enhancements
 - Added `investment-support-directory` and `investment-support-directory/search` to FAS urls
+
+### Fixed bugs:
+- TT-1487 403 to work around for AWS WAF error 

@@ -21,9 +21,9 @@ HUMAN_RESOURCES = [
     'Payroll',
     'Salary benchmarking and employee benefits',
     'Sourcing and hiring',
-    'Succession planning',
     'Staff management and progression',
     'Staff onboarding',
+    'Succession planning',
 ]
 
 LEGAL = [

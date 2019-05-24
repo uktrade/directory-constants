@@ -1,5 +1,11 @@
 # Changelog
 
+## [16.7.1](https://pypi.org/project/directory-constants/16.7.2/) (2019-05-24)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/100/files)
+
+### Implemented enhancements
+- Change order of expertise work around for 403 AWS WAF - Revert
+
 ## [16.7.1](https://pypi.org/project/directory-constants/16.7.1/) (2019-05-21)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/99/files)
 

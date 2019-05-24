@@ -1,6 +1,6 @@
 # Changelog
 
-## [16.7.1](https://pypi.org/project/directory-constants/16.7.2/) (2019-05-24)
+## [16.7.2](https://pypi.org/project/directory-constants/16.7.2/) (2019-05-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/100/files)
 
 ### Implemented enhancements

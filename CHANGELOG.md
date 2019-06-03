@@ -1,5 +1,14 @@
 # Changelog
 
+## [17.0.0](https://pypi.org/project/directory-constants/17.0.0/) (2019-06-03)
+
+### Implemented enhancements
+- Add Investment-support-directory url
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/102/files)
+
+### Breaking changes
+- Added separate isd url please set DIRECTORY_CONSTANTS_URL_INVESTMENT_SUPPORT_DIRECTORY in all dev environments
+
 ## [16.8.0](https://pypi.org/project/directory-constants/16.8.0/) (2019-06-03)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/103/files)
 

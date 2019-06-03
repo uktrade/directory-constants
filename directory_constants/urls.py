@@ -36,6 +36,10 @@ SERVICES_FAS = get_url(
     'DIRECTORY_CONSTANTS_URL_FIND_A_SUPPLIER',
     'https://trade.great.gov.uk'
 )
+SERVICES_ISD = get_url(
+    'DIRECTORY_CONSTANTS_URL_INVESTMENT_SUPPORT_DIRECTORY',
+    'https://www.great.gov.uk/investment-support-directory/'
+)
 build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 FAS_SEARCH = build_fas_url('search/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY = \

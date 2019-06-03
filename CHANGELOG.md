@@ -1,5 +1,10 @@
 # Changelog
 
+## [16.7.3](https://pypi.org/project/directory-constants/16.7.3/) (2019-06-03)
+- Add Investment-support-directory url
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/101/files)
+
+
 ## [16.7.2](https://pypi.org/project/directory-constants/16.7.2/) (2019-05-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/100/files)
 

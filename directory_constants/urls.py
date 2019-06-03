@@ -34,11 +34,11 @@ SERVICES_SOO = get_url(
 )
 SERVICES_FAS = get_url(
     'DIRECTORY_CONSTANTS_URL_FIND_A_SUPPLIER',
-    'https://trade.great.gov.uk'
+    'https://www.great.gov.uk/trade/'
 )
 SERVICES_ISD = get_url(
     'DIRECTORY_CONSTANTS_URL_INVESTMENT_SUPPORT_DIRECTORY',
-    'https://trade.great.gov.uk'
+    'https://www.great.gov.uk/investment-support-directory/'
 )
 build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 build_isd_url = functools.partial(urljoin, SERVICES_ISD)
@@ -46,7 +46,7 @@ FAS_SEARCH = build_fas_url('search/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY = \
     build_isd_url('investment-support-directory/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
-    build_isd_url('investment-support-directory/search/')
+    build_isd_url('search/')
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')

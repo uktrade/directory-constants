@@ -1,5 +1,11 @@
 # Changelog
 
+## [16.8.0](https://pypi.org/project/directory-constants/16.8.0/) (2019-06-03)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/103/files)
+
+### Implemented enhancements
+- Added contact form office finder url
+
 ## [16.7.2](https://pypi.org/project/directory-constants/16.7.2/) (2019-05-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/100/files)
 

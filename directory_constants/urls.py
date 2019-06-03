@@ -44,7 +44,7 @@ build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 build_isd_url = functools.partial(urljoin, SERVICES_ISD)
 FAS_SEARCH = build_fas_url('search/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY = \
-    build_isd_url('investment-support-directory/')
+    build_isd_url('')
 FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
     build_isd_url('search/')
 SERVICES_SSO = get_url(

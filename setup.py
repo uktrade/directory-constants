@@ -16,11 +16,10 @@ setup(
     long_description_content_type='text/markdown',
     include_package_data=True,
     install_requires=[
-        'django>=1.11.20,<3.0a1',
+        'django>=1.11,<3.0a1',
     ],
     extras_require={
         'test': [
-            'django>=2.2,<3.0a1',
             'pytest==3.6.0',
             'pytest-cov==2.7.1',
             'pytest-django==3.3.0',

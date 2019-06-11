@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='directory_constants',
-    version='17.0.0',
+    version='17.1.0',
     url='https://github.com/uktrade/directory-constants',
     license='MIT',
     author='Department for International Trade',
@@ -16,13 +16,14 @@ setup(
     long_description_content_type='text/markdown',
     include_package_data=True,
     install_requires=[
-        'django>=1.11.20,<2.0a1',
+        'django>=1.11.20,<3.0a1',
     ],
     extras_require={
         'test': [
-            'pytest==3.0.2',
-            'pytest-cov==2.3.1',
-            'pytest-django==3.0.0',
+            'django>=2.2,<3.0a1',
+            'pytest==3.6.0',
+            'pytest-cov==2.7.1',
+            'pytest-django==3.3.0',
             'flake8==3.0.4',
             'twine>=1.11.0,<2.0.0',
             'wheel>=0.31.0,<1.0.0',
@@ -35,6 +36,9 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 2.1',
+        'Framework :: Django :: 2.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',

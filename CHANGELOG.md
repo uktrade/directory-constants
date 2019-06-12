@@ -1,5 +1,11 @@
 # Changelog
 
+## [17.1.0](https://pypi.org/project/directory-constants/17.1.0/) (2019-06-12)
+
+### Implemented enhancements
+- Updated test requirements and add support for Django 2 -> 2.2
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/104/files)
+
 ## [17.0.0](https://pypi.org/project/directory-constants/17.0.0/) (2019-06-03)
 
 ### Implemented enhancements

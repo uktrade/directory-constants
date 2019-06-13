@@ -1,5 +1,10 @@
 # Changelog
 
+## Pre-release
+
+### Implemented enhancements
+- Avoid unnecessary redirect from Invest uk-setup-guide/ to International /how-to-setup-in-the-uk/ - CMS-1671
+
 ## [17.1.0](https://pypi.org/project/directory-constants/17.1.0/) (2019-06-12)
 
 ### Implemented enhancements

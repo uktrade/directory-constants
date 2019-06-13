@@ -112,7 +112,7 @@ GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = \
     build_great_international_url('how-to-do-business-with-the-uk/')
 GREAT_INTERNATIONAL_INDUSTRIES = build_great_international_url('industries/')
 GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = \
-    build_great_international_url('how-to-setup-in-the-uk')
+    build_great_international_url('how-to-setup-in-the-uk/')
 GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
     build_great_international_url('capital-invest')
 GREAT_INTERNATIONAL_HOW_TO_SET_UP_VISAS_AND_MIGRATION = \

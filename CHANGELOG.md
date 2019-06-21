@@ -1,5 +1,10 @@
 # Changelog
 
+## [18.0.0](https://pypi.org/project/directory-constants/18.0.0/) (2019-06-21)
+
+### Implemented enhancements
+- CMS-1666 - Update home page slugs for great domestic and international
+
 ## [17.1.1](https://pypi.org/project/directory-constants/17.1.1/) (2019-06-14)
 
 ### Implemented enhancements

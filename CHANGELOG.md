@@ -1,5 +1,10 @@
 # Changelog
 
+## [18.1.0](https://pypi.org/project/directory-constants/18.1.0/) (2019-07-02)
+
+### Implemented enhancements
+- TT-1575 - Added SIC codes
+
 ## [18.0.0](https://pypi.org/project/directory-constants/18.0.0/) (2019-06-21)
 
 ### Implemented enhancements

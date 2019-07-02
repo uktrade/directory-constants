@@ -17,3 +17,11 @@ def test_old_countries_removed():
 
     assert 'USSR' not in country_codes
     assert 'GB' in country_codes
+
+
+def test_sic_codes():
+    assert len(choices.SIC_CODES) == 731
+    assert choices.SIC_CODES[0] == (
+        '69201', 'Accounting and auditing activities'
+    )
+    assert choices.SIC_CODES[-1] == ('74100', 'specialised design activities')

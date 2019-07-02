@@ -1,6 +1,7 @@
+import csv
 import json
 from operator import itemgetter
-import os
+from pathlib import Path
 
 from directory_constants import cms, expertise, sectors
 
@@ -335,14 +336,22 @@ LEAD_GENERATION_EXPORT_DESTINATIONS = (
 )
 
 
+fixtures = Path(__file__).parent / 'fixtures'
+
+
 # from https://www.registers.service.gov.uk/registers/country
-country_fixture_path = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), './fixtures/country.json'
-)
-with open(country_fixture_path, 'r') as f:
+with (fixtures / 'country.json').open('r') as f:
     COUNTRY_CHOICES = []
     for country in json.loads(f.read()).values():
         for item in country['item']:
             if 'end-date' not in item:
                 COUNTRY_CHOICES.append((item['country'], item['name']))
     COUNTRY_CHOICES.sort(key=itemgetter(1))
+
+# from https://www.gov.uk/government/publications/
+# standard-industrial-classification-of-economic-activities-sic
+
+with (fixtures / 'sic.csv').open('r') as f:
+    reader = csv.DictReader(f)
+    SIC_CODES = [(row['SIC Code'], row['Description']) for row in reader]
+    SIC_CODES.sort(key=itemgetter(1))

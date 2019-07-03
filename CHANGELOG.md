@@ -1,5 +1,10 @@
 # Changelog
 
+## [18.1.2](https://pypi.org/project/directory-constants/18.1.2/) (2019-07-03)
+
+### Implemented enhancements
+- no ticket - Fix missing files
+
 ## [18.1.1](https://pypi.org/project/directory-constants/18.1.1/) (2019-07-03)
 
 ### Implemented enhancements

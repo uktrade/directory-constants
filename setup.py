@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='directory_constants',
-    version='18.1.1',
+    version='18.1.2',
     url='https://github.com/uktrade/directory-constants',
     license='MIT',
     author='Department for International Trade',
@@ -16,8 +16,8 @@ setup(
     long_description_content_type='text/markdown',
     package_data={
         'directory_constants': [
-            'directory_constants/fixtures/*',
-            'directory_constants/locale/*',
+            'fixtures/*',
+            'locale/*',
         ]
     },
     include_package_data=True,

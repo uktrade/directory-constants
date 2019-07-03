@@ -1,1 +1,0 @@
-recursive-include directory_constants *.po *.mo *.json

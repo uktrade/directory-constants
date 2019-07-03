@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='directory_constants',
-    version='18.1.0',
+    version='18.1.1',
     url='https://github.com/uktrade/directory-constants',
     license='MIT',
     author='Department for International Trade',
@@ -14,6 +14,12 @@ setup(
     packages=find_packages(exclude=["tests.*", "tests"]),
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
+    package_data={
+        'directory_constants': [
+            'directory_constants/fixtures/*',
+            'directory_constants/locale/*',
+        ]
+    },
     include_package_data=True,
     install_requires=[
         'django>=1.11,<3.0a1',

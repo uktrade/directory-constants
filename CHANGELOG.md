@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.1.1](https://pypi.org/project/directory-constants/18.1.1/) (2019-07-03)
+
+### Implemented enhancements
+- TT-1575 - Added missing csv file to package
+- no ticket - Move MANIFEST.in functionality to setup.py
+
+
 ## [18.1.0](https://pypi.org/project/directory-constants/18.1.0/) (2019-07-02)
 
 ### Implemented enhancements

@@ -1,5 +1,11 @@
 # Changelog
 
+## [18.2.0](https://pypi.org/project/directory-constants/18.2.0/) (2019-07-08)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/111/files)
+
+### Implemented enhancements
+- TT-998 - Added company types
+
 ## [18.1.2](https://pypi.org/project/directory-constants/18.1.2/) (2019-07-03)
 
 ### Implemented enhancements

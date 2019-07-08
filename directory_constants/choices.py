@@ -336,6 +336,15 @@ LEAD_GENERATION_EXPORT_DESTINATIONS = (
 )
 
 
+COMPANY_TYPES = (
+    ('COMPANIES_HOUSE', 'A business registered with Companies House'),
+    ('CHARITY', 'Charity'),
+    ('PARTNERSHIP', 'Partnership'),
+    ('SOLE_TRADER', 'Sole Trader'),
+    ('OTHER', 'Other UK business not registered in Companies House'),
+)
+
+
 fixtures = Path(__file__).parent / 'fixtures'
 
 

@@ -1,6 +1,6 @@
 # Changelog
 
-## [18.2.0](https://pypi.org/project/directory-constants/18.3.0/) (2019-07-09)
+## [18.3.0](https://pypi.org/project/directory-constants/18.3.0/) (2019-07-09)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/112/files)
 
 ### Implemented enhancements

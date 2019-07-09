@@ -1,5 +1,11 @@
 # Changelog
 
+## [18.2.0](https://pypi.org/project/directory-constants/18.3.0/) (2019-07-09)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/112/files)
+
+### Implemented enhancements
+- TT-998 - Break out company types into constants
+
 ## [18.2.0](https://pypi.org/project/directory-constants/18.2.0/) (2019-07-08)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/111/files)
 

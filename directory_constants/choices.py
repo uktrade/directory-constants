@@ -3,7 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, expertise, sectors
+from directory_constants import cms, company_types, expertise, sectors
 
 
 INDUSTRIES = (
@@ -337,10 +337,13 @@ LEAD_GENERATION_EXPORT_DESTINATIONS = (
 
 
 COMPANY_TYPES = (
-    ('COMPANIES_HOUSE', 'A business registered with Companies House'),
-    ('CHARITY', 'Charity'),
-    ('PARTNERSHIP', 'Partnership'),
-    ('SOLE_TRADER', 'Sole Trader'),
+    (
+        company_types.COMPANIES_HOUSE,
+        'A business registered with Companies House'
+    ),
+    (company_types.CHARITY, 'Charity'),
+    (company_types.PARTNERSHIP, 'Partnership'),
+    (company_types.SOLE_TRADER, 'Sole Trader'),
     ('OTHER', 'Other UK business not registered in Companies House'),
 )
 

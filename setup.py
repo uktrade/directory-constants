@@ -22,7 +22,7 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        'django>=2.2,<3.0a1',
+        'django>=1.11.22,<3.0a1',
     ],
     extras_require={
         'test': [

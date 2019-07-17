@@ -1,10 +1,10 @@
 # Changelog
 
-## [18.3.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-07-17)
+## [18.3.0](https://pypi.org/project/directory-constants/18.3.0/) (2019-03-17)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/113/files)
 
-### Breaking Change
-- no ticket - Upgrade to django 2.2
+### Implemented enhancements
+- no ticket - support for django 2 added
 
 ## [18.3.0](https://pypi.org/project/directory-constants/18.3.0/) (2019-07-09)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/112/files)

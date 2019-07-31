@@ -1,7 +1,7 @@
 # Changelog
 
 ## [18.4.0](https://pypi.org/project/directory-constants/18.4.0/) (2019-07-31)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/113/files)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/114/files)
 
 ### Implemented enhancements
 - CI-405 - Add URLs: (FAS) Contact us, (International) About DIT, (International) Contact us

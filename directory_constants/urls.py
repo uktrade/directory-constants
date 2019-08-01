@@ -43,6 +43,7 @@ SERVICES_ISD = get_url(
 build_fas_url = functools.partial(urljoin, SERVICES_FAS)
 build_isd_url = functools.partial(urljoin, SERVICES_ISD)
 FAS_SEARCH = build_fas_url('search/')
+FAS_CONTACT_US = build_fas_url('contact/')
 FAS_INVESTMENT_SUPPORT_DIRECTORY = \
     build_isd_url('')
 FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
@@ -123,6 +124,12 @@ GREAT_INTERNATIONAL_HOW_TO_SET_UP_TAX_AND_INCENTIVES = \
     build_great_international_url(
         'how-to-setup-in-the-uk/uk-tax-and-incentives/'
     )
+GREAT_INTERNATIONAL_ABOUT_DIT = \
+    build_great_international_url(
+        'about-dit/'
+    )
+GREAT_INTERNATIONAL_CONTACT_US = \
+    build_great_url('contact/triage/international/')
 
 # Invest
 build_invest_url = functools.partial(urljoin, SERVICES_INVEST)

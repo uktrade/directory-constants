@@ -17,6 +17,7 @@ GREAT_HOME = 'great-domestic-home'
 GREAT_HOME_OLD = 'home'
 GREAT_HOME_INTERNATIONAL = 'great-international-home'
 GREAT_HOME_INTERNATIONAL_OLD = 'international'
+GREAT_CAMPAIGNS = 'campaigns'
 GREAT_MARKETING_PAGES = 'export-readiness-marketing-pages'
 GREAT_PRIVACY_AND_COOKIES = 'privacy-and-cookies'
 GREAT_SITE_POLICY_PAGES = 'export-readiness-site-policy-pages'
@@ -62,3 +63,10 @@ PERFORMANCE_DASHBOARD_INVEST = 'performance-dashboard-invest'
 PERFORMANCE_DASHBOARD_NOTES = 'performance-dashboard-notes'
 PERFORMANCE_DASHBOARD_SOO = 'performance-dashboard-selling-online-overseas'
 PERFORMANCE_DASHBOARD_TRADE_PROFILE = 'performance-dashboard-trade-profiles'
+
+# New tree-based routing slugs
+CONTACT_FORM_SLUG = 'contact'
+FORM_SUCCESS_SLUG = 'success'
+
+INVEST_INTERNATIONAL_HOME_PAGE = 'invest'
+INVEST_INTERNATIONAL_HIGH_POTENTIAL_OPPORTUNITIES = 'high-potential-opportunities'

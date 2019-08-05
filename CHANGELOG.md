@@ -1,5 +1,11 @@
 # Changelog
 
+## [18.6.0](https://pypi.org/project/directory-constants/18.6.0/) (2019-08-05)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/116/files)
+
+### Implemented enhancements
+- CMS-1774 - Add Invest region landing page slug
+
 ## [18.5.0](https://pypi.org/project/directory-constants/18.5.0/) (2019-08-05)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/115/files)
 

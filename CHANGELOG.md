@@ -1,5 +1,11 @@
 # Changelog
 
+## [18.5.0](https://pypi.org/project/directory-constants/18.5.0/) (2019-08-05)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/115/files)
+
+### Implemented enhancements
+- CMS-1596 - Add new tree-based routing slugs for Great campaigns, Invest homepage, high potential opportunities, contact forms, and form success pages
+
 ## [18.4.0](https://pypi.org/project/directory-constants/18.4.0/) (2019-08-01)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/114/files)
 

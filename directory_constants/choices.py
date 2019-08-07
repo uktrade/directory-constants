@@ -3,7 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, company_types, expertise, sectors
+from directory_constants import cms, company_types, expertise, sectors, user_roles
 
 
 INDUSTRIES = (
@@ -347,6 +347,11 @@ COMPANY_TYPES = (
     ('OTHER', 'Other UK business not registered in Companies House'),
 )
 
+USER_ROLES = (
+    (user_roles.ADMIN, 'Admin'),
+    (user_roles.EDITOR, 'Editor'),
+    (user_roles.MEMBER, 'Member'),
+)
 
 fixtures = Path(__file__).parent / 'fixtures'
 

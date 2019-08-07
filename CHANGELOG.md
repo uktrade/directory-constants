@@ -1,5 +1,9 @@
 # Changelog
 
+## [18.7.0](https://pypi.org/project/directory-constants/18.7.0/) (2019-08-07)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/117/files)
+- TT-1722 - Add user roles
+
 ## [18.6.0](https://pypi.org/project/directory-constants/18.6.0/) (2019-08-05)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/116/files)
 

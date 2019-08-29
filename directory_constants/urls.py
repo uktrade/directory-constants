@@ -14,16 +14,8 @@ SERVICES_GREAT_DOMESTIC = get_url(
     'https://www.great.gov.uk'
 )
 build_great_url = functools.partial(urljoin, SERVICES_GREAT_DOMESTIC)
-SERVICES_GREAT_INTERNATIONAL = get_url(
-    'DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL',
-    'https://www.great.gov.uk/international/'
-)
-build_great_international_url = functools.partial(
-    urljoin, SERVICES_GREAT_INTERNATIONAL)
-SERVICES_INVEST = get_url(
-    'DIRECTORY_CONSTANTS_URL_INVEST',
-    'https://invest.great.gov.uk'
-)
+
+
 SERVICES_EVENTS = get_url(
     'DIRECTORY_CONSTANTS_URL_EVENTS',
     'https://www.events.great.gov.uk'
@@ -32,22 +24,7 @@ SERVICES_SOO = get_url(
     'DIRECTORY_CONSTANTS_URL_SELLING_ONLINE_OVERSEAS',
     'https://selling-online-overseas.export.great.gov.uk'
 )
-SERVICES_FAS = get_url(
-    'DIRECTORY_CONSTANTS_URL_FIND_A_SUPPLIER',
-    'https://www.great.gov.uk/trade/'
-)
-SERVICES_ISD = get_url(
-    'DIRECTORY_CONSTANTS_URL_INVESTMENT_SUPPORT_DIRECTORY',
-    'https://www.great.gov.uk/investment-support-directory/'
-)
-build_fas_url = functools.partial(urljoin, SERVICES_FAS)
-build_isd_url = functools.partial(urljoin, SERVICES_ISD)
-FAS_SEARCH = build_fas_url('search/')
-FAS_CONTACT_US = build_fas_url('contact/')
-FAS_INVESTMENT_SUPPORT_DIRECTORY = \
-    build_isd_url('')
-FAS_INVESTMENT_SUPPORT_DIRECTORY_SEARCH = \
-    build_isd_url('search/')
+
 SERVICES_SSO = get_url(
     'DIRECTORY_CONSTANTS_URL_SINGLE_SIGN_ON',
     build_great_url('sso/')
@@ -106,36 +83,7 @@ DIT = (
     'department-for-international-trade'
 )
 
-# Great international
-GREAT_INTERNATIONAL = SERVICES_GREAT_INTERNATIONAL
-GREAT_INTERNATIONAL_NEWS = build_great_international_url('news/')
-GREAT_INTERNATIONAL_HOW_TO_DO_BUSINESS_WITH_THE_UK = \
-    build_great_international_url('how-to-do-business-with-the-uk/')
-GREAT_INTERNATIONAL_INDUSTRIES = build_great_international_url('industries/')
-GREAT_INTERNATIONAL_HOW_TO_SETUP_IN_THE_UK = \
-    build_great_international_url('how-to-setup-in-the-uk/')
-GREAT_INTERNATIONAL_CAPITAL_INVEST_LANDING_PAGE = \
-    build_great_international_url('capital-invest')
-GREAT_INTERNATIONAL_HOW_TO_SET_UP_VISAS_AND_MIGRATION = \
-    build_great_international_url(
-        'how-to-setup-in-the-uk/uk-visas-and-migration/'
-    )
-GREAT_INTERNATIONAL_HOW_TO_SET_UP_TAX_AND_INCENTIVES = \
-    build_great_international_url(
-        'how-to-setup-in-the-uk/uk-tax-and-incentives/'
-    )
-GREAT_INTERNATIONAL_ABOUT_DIT = \
-    build_great_international_url(
-        'about-dit/'
-    )
-GREAT_INTERNATIONAL_CONTACT_US = \
-    build_great_url('contact/triage/international/')
-
-# Invest
-build_invest_url = functools.partial(urljoin, SERVICES_INVEST)
-INVEST_INDUSTRIES = build_invest_url('industries/')
-INVEST_SETUP_GUIDE = build_invest_url('uk-setup-guide/')
-INVEST_CONTACT_US = build_invest_url('contact/')
+INTERNATIONAL_CONTACT_TRIAGE = build_great_url('contact/triage/international/')
 
 # Legacy great/export readiness article/persona/triage urls
 CUSTOM_PAGE = build_great_url('custom/')

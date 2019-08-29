@@ -1,5 +1,13 @@
 # Changelog
 
+## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-08-29)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/118/files)
+- CI-405: Refactor International URLs to match new site IA.
+
+### Breaking Changes
+- URLs from `great-international` (which now includes FAS, invest ISD and PerfectFit) have been extracted to 
+`international_urls.py` and many of their names have been updated.
+
 ## [18.7.0](https://pypi.org/project/directory-constants/18.7.0/) (2019-08-07)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/117/files)
 - TT-1722 - Add user roles

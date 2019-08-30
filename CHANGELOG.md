@@ -1,6 +1,6 @@
 # Changelog
 
-## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-08-29)
+## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-08-30)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/118/files)
 - CI-405: Refactor International URLs to match new site IA.
 - CI-405: Add new international URLs for new site IA.

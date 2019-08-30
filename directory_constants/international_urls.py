@@ -3,9 +3,7 @@ from directory_constants.urls import get_url, INTERNATIONAL_CONTACT_TRIAGE
 
 
 def urljoin(base_url, addition):
-    stripped_base_url = base_url.strip('/')
-    stripped_addition = addition.strip('/')
-    return f'{stripped_base_url}/{stripped_addition}/'
+    return '{0}/{1}/'.format(base_url.strip('/'), addition.strip('/'))
 
 
 HOME = get_url('DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL', 'https://great.gov.uk/international/') # noqa

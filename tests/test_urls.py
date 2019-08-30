@@ -38,10 +38,6 @@ def test_get_url_value_not_default_provided(settings):
     assert actual == 'www.default.com'
 
 
-@pytest.mark.parametrize('url_builder,expected', (
-    (urls.build_great_url, 'https://www.great.gov.uk/foo/'),
-    (urls.build_invest_url, 'https://invest.great.gov.uk/foo/'),
-))
-def test_url_builders(url_builder, expected):
-    assert url_builder('foo/') == expected
-    assert url_builder('/foo/') == expected
+def test_url_builders():
+    assert urls.build_great_url('foo/') == 'https://www.great.gov.uk/foo/'
+    assert urls.build_great_url('/foo/') == 'https://www.great.gov.uk/foo/'

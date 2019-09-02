@@ -1,13 +1,14 @@
 # Changelog
 
-## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-08-30)
+## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-09-02)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/118/files)
-- CI-405: Refactor International URLs to match new site IA.
+- CI-405: Refactor Urls into a package containing domestic and international.
 - CI-405: Add new international URLs for new site IA.
 
 ### Breaking Changes
-- URLs from `great-international` (which now includes FAS, invest ISD and PerfectFit) have been extracted to 
-`international_urls.py` and many of their names have been updated.
+- domestic URLs have moved from `directory-constants.urls` to `directory-constants.urls.domestic`.
+- international URLs have moved from `directory-constants.urls` to `directory-constants.urls.international`.
+- Some of the URLs have also had their names updated.
 
 ## [18.7.0](https://pypi.org/project/directory-constants/18.7.0/) (2019-08-07)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/117/files)

@@ -10,7 +10,9 @@ from django.conf import settings
 # which returns 'https://example.com/foo/bar/'
 class UrlString(str):
     def __truediv__(self, other):
-        return UrlString('{0}/{1}/'.format(self.strip('/'), other.strip('/')))
+        base = self.strip('/')
+        path = other.strip('/')
+        return UrlString(f'{base}/{path}/')
 
 
 def get_url(url_name, default):

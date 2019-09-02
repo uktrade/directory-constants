@@ -1,7 +1,7 @@
-from directory_constants.urls import UrlString, get_url
+from directory_constants.helpers import UrlString, get_url
 from directory_constants.urls.domestic import INTERNATIONAL_CONTACT_TRIAGE
 
-HOME = UrlString(get_url('DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL', 'https://great.gov.uk/international')) # noqa
+HOME = UrlString(get_url('DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL', 'https://great.gov.uk/international'))
 CONTENT_ROOT = HOME / 'content'
 
 # about the UK
@@ -29,9 +29,10 @@ CAPITAL_INVEST_OPPORTUNITIES = CONTENT_ROOT / 'opportunities'
 CAPITAL_INVEST_CONTACT = CAPITAL_INVEST_HOME / 'contact'
 
 # trade
-TRADE_FAS = HOME / 'trade'
+TRADE_HOME = HOME / 'trade'
+TRADE_FAS = TRADE_HOME
 TRADE_FAS_SEARCH = TRADE_FAS / 'search'
-TRADE_FAS_CONTACT = TRADE_FAS / 'contact'
+TRADE_CONTACT = TRADE_HOME / 'contact'
 
 # about dit
 ABOUT_DIT_HOME = CONTENT_ROOT / 'about-dit'

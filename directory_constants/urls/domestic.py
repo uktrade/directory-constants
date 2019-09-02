@@ -1,4 +1,4 @@
-from directory_constants.urls import get_url
+from directory_constants.helpers import get_url
 
 
 # SERVICES

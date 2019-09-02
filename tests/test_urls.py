@@ -1,5 +1,4 @@
-from directory_constants import urls
-from directory_constants.urls import domestic, international, UrlString
+from directory_constants.urls import domestic, international
 import pytest
 
 
@@ -17,35 +16,3 @@ def test_domestic_default_links_https(url):
 ])
 def test_international_default_links_https(url):
     assert url.startswith('https://')
-
-
-def test_get_url_value_present(settings):
-    settings.TEST_VALUE = 'https://example.com'
-
-    actual = urls.get_url('TEST_VALUE', 'https://other-site.com')
-
-    assert actual == 'https://example.com'
-
-
-def test_get_url_value_not_present(settings):
-    settings.TEST_VALUE = ''
-
-    actual = urls.get_url('TEST_VALUE', 'https://other-site.com')
-
-    assert actual == 'https://other-site.com'
-
-
-@pytest.mark.parametrize('base,addition', [
-    ('https://example.com', 'test'),
-    ('https://example.com', 'test/'),
-    ('https://example.com', '/test/'),
-    ('https://example.com', '/test'),
-    ('https://example.com/', 'test'),
-    ('https://example.com/', 'test/'),
-    ('https://example.com/', '/test/'),
-    ('https://example.com/', '/test'),
-])
-def test_url_string(base, addition):
-    base_url = UrlString(base)
-
-    assert base_url / addition == 'https://example.com/test/'

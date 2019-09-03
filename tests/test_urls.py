@@ -1,9 +1,9 @@
-from directory_constants.urls import domestic, international
+from directory_constants import urls
 import pytest
 
 
 @pytest.mark.parametrize('url', [
-    getattr(domestic, attribute_name) for attribute_name in dir(domestic)
+    getattr(urls.domestic, attribute_name) for attribute_name in dir(urls.domestic)
     if not attribute_name.startswith('__') and attribute_name.isupper()
 ])
 def test_domestic_default_links_https(url):
@@ -11,7 +11,7 @@ def test_domestic_default_links_https(url):
 
 
 @pytest.mark.parametrize('url', [
-    getattr(international, attribute_name) for attribute_name in dir(international)
+    getattr(urls.international, attribute_name) for attribute_name in dir(urls.international)
     if not attribute_name.startswith('__') and attribute_name.isupper()
 ])
 def test_international_default_links_https(url):

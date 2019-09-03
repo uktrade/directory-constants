@@ -1,4 +1,12 @@
 # Changelog
+## [19.1.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-09-03)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/119/files)
+### Implemented Enhancements
+- CI-405: Add module definitions to allow `urls.domestic` and `urls.international`
+
+### Fixed Bugs
+- CI-405: Fix incorrect ISD url.
+
 
 ## [19.0.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-09-02)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/118/files)

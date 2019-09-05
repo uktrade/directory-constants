@@ -1,5 +1,13 @@
 # Changelog
-## [19.1.0](https://pypi.org/project/directory-constants/19.0.0/) (2019-09-03)
+## [20.0.0]((https://pypi.org/project/directory-constants/20.0.0/) (2019-09-05))
+### Fixed Bugs
+- CI-405: International URL now reads from a new env-var instead of the old one.
+
+### Breaking Changes
+- Applications will need to add a new `DIRECTORY_CONSTANTS_URL_INTERNATIONAL` settings parameter to set the root international URL
+- The `DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL` is no longer used.
+
+## [19.1.0](https://pypi.org/project/directory-constants/19.1.0/) (2019-09-03)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/119/files)
 ### Implemented Enhancements
 - CI-405: Add module definitions to allow `urls.domestic` and `urls.international`

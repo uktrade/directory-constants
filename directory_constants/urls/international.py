@@ -1,7 +1,7 @@
 from directory_constants.helpers import UrlString, get_url
 from directory_constants.urls.domestic import INTERNATIONAL_CONTACT_TRIAGE
 
-HOME = UrlString(get_url('DIRECTORY_CONSTANTS_URL_GREAT_INTERNATIONAL', 'https://great.gov.uk/international'))
+HOME = UrlString(get_url('DIRECTORY_CONSTANTS_URL_INTERNATIONAL', 'https://great.gov.uk/international/'))
 CONTENT_ROOT = HOME / 'content'
 
 # about the UK

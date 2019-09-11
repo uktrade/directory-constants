@@ -1,4 +1,10 @@
 # Changelog
+
+## [20.1.0]((https://pypi.org/project/directory-constants/20.1.0/) (2019-09-11))
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/121/files)
+### Implemented Enhancements
+- Update to most recent country list from www.registers.service.gov.uk/registers/country
+
 ## [20.0.0]((https://pypi.org/project/directory-constants/20.0.0/) (2019-09-05))
 ### Fixed Bugs
 - CI-405: International URL now reads from a new env-var instead of the old one.

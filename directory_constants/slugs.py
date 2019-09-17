@@ -22,6 +22,8 @@ GREAT_MARKETING_PAGES = 'export-readiness-marketing-pages'
 GREAT_PRIVACY_AND_COOKIES = 'privacy-and-cookies'
 GREAT_SITE_POLICY_PAGES = 'export-readiness-site-policy-pages'
 GREAT_TERMS_AND_CONDITIONS = 'terms-and-conditions'
+GREAT_ACCESSIBILITY_STATEMENT = 'accessibility-statement'
+
 
 HELP_ACCOUNT_COMPANY_NOT_FOUND = 'company-not-found'
 HELP_ACCOUNT_SOLE_TRADER_ADDRESS_NOT_FOUND = 'sole-trader-address-not-found'

@@ -1,7 +1,13 @@
 # Changelog
 
+## [20.3.0](https://pypi.org/project/directory-constants/20.3.0/) (2019-09-17)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/123/files)
+### Implemented Enhancements
+- GTRANSFORM-368 added accessibilty-statement to slugs
+
 ## [20.2.0](https://pypi.org/project/directory-constants/20.2.0/) (2019-09-17)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/122/files)
+### Implemented Enhancements
 - GTRANSFORM-368 - Add constant for accessibility statement footer link
 
 ## [20.1.0]((https://pypi.org/project/directory-constants/20.1.0/) (2019-09-11))

@@ -1,5 +1,9 @@
 # Changelog
 
+## [20.2.0](https://pypi.org/project/directory-constants/20.2.0/) (2019-09-17)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/122/files)
+- GTRANSFORM-368 - Add constant for accessibility statement footer link
+
 ## [20.1.0]((https://pypi.org/project/directory-constants/20.1.0/) (2019-09-11))
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/121/files)
 ### Implemented Enhancements

@@ -1,7 +1,7 @@
 # Changelog
 
-## [20.2.1](https://pypi.org/project/directory-constants/20.2.0/) (2019-09-17)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/122/files)
+## [20.2.1](https://pypi.org/project/directory-constants/20.2.1/) (2019-09-17)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/123/files)
 ### Fixed Bugs
 - GTRANSFORM-368 added accessibilty-statement to slugs
 

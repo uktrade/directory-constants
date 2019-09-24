@@ -1,6 +1,11 @@
 # Changelog
 
-## [20.4.0](https://pypi.org/project/directory-constants/20.3.0/) (2019-09-24)
+## [20.5.0](https://pypi.org/project/directory-constants/20.5.0/) (2019-09-24)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/125/files)
+### Implemented Enhancements
+- Added content into new how we help urls
+
+## [20.4.0](https://pypi.org/project/directory-constants/20.4.0/) (2019-09-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/124/files)
 ### Implemented Enhancements
 - Added how we help urls to international urls

@@ -21,7 +21,7 @@ EXPAND_HOW_TO_SETUP = CONTENT_ROOT / 'how-to-setup-in-the-uk'
 EXPAND_HOW_TO_SETUP_VISAS_AND_MIGRATION = EXPAND_HOW_TO_SETUP / 'uk-visas-and-migration'
 EXPAND_HOW_TO_SETUP_TAX_AND_INCENTIVES = EXPAND_HOW_TO_SETUP / 'uk-tax-and-incentives'
 EXPAND_HOW_TO_DO_BUSINESS = CONTENT_ROOT / 'how-to-do-business-with-the-uk'
-EXPAND_HOW_WE_HELP = EXPAND_HOME / 'how-we-help-you-expand'
+EXPAND_HOW_WE_HELP = EXPAND_CONTENT_ROOT / 'how-we-help-you-expand'
 EXPAND_CONTACT = EXPAND_HOME / 'contact'
 
 # capital invest
@@ -34,7 +34,8 @@ CAPITAL_INVEST_CONTACT = CAPITAL_INVEST_HOME / 'contact'
 TRADE_HOME = HOME / 'trade'
 TRADE_FAS = TRADE_HOME
 TRADE_FAS_SEARCH = TRADE_FAS / 'search'
-TRADE_HOW_WE_HELP = TRADE_HOME / 'how-we-help-you-buy'
+TRADE_CONTENT_ROOT = CONTENT_ROOT / 'trade'
+TRADE_HOW_WE_HELP = TRADE_CONTENT_ROOT / 'how-we-help-you-buy'
 TRADE_CONTACT = TRADE_HOME / 'contact'
 
 # about dit

@@ -1,5 +1,10 @@
 # Changelog
 
+## [20.6.0](https://pypi.org/project/directory-constants/20.6.0/) (2019-10-01)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/126/files)
+### Implemented Enhancements
+- Added expand slug and capital invest slug to ISD url
+
 ## [20.5.0](https://pypi.org/project/directory-constants/20.5.0/) (2019-09-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/125/files)
 ### Implemented Enhancements

@@ -15,8 +15,6 @@ ABOUT_UK_CONTACT = INTERNATIONAL_CONTACT_TRIAGE
 expand_slug = get_url('DIRECTORY_CONSTANTS_EXPAND_SLUG', 'invest')  # for the transition from invest/ to expand/
 EXPAND_HOME = HOME / expand_slug
 EXPAND_CONTENT_ROOT = CONTENT_ROOT / expand_slug
-EXPAND_ISD_HOME = HOME / 'investment-support-directory'
-EXPAND_ISD_SEARCH = EXPAND_ISD_HOME / 'search'
 EXPAND_HOW_TO_SETUP = CONTENT_ROOT / 'how-to-setup-in-the-uk'
 EXPAND_HOW_TO_SETUP_VISAS_AND_MIGRATION = EXPAND_HOW_TO_SETUP / 'uk-visas-and-migration'
 EXPAND_HOW_TO_SETUP_TAX_AND_INCENTIVES = EXPAND_HOW_TO_SETUP / 'uk-tax-and-incentives'
@@ -47,3 +45,9 @@ NEWS = CONTENT_ROOT / 'news/'
 
 # contact
 CONTACT = INTERNATIONAL_CONTACT_TRIAGE
+
+# isd
+EXPAND_ISD_HOME = EXPAND_HOME / 'investment-support-directory'
+EXPAND_ISD_SEARCH = EXPAND_ISD_HOME / 'search'
+CAPITAL_INVEST_ISD = CAPITAL_INVEST_HOME / 'investment-support-directory'
+CAPITAL_INVEST_ISD_SEARCH = CAPITAL_INVEST_ISD / 'search'

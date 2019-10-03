@@ -1,6 +1,6 @@
 # Changelog
 
-## [20.7.0](https://pypi.org/project/directory-constants/20.6.0/) (2019-10-03)
+## [20.7.0](https://pypi.org/project/directory-constants/20.7.0/) (2019-10-03)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/127/files)
 ### Implemented Enhancements
 - Updated About us url from `about-dit`  to `about-us`

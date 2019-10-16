@@ -34,3 +34,18 @@ def test_sectors_structure():
 def test_sectors_sorted():
     expected = sorted(choices.SECTORS, key=itemgetter(1))
     assert choices.SECTORS == expected
+
+
+def test_countries_and_territories_structure():
+    assert choices.COUNTRIES_AND_TERRITORIES[0] == ('AE-AZ', 'Abu Dhabi')
+
+
+def test_countries_and_territories_sorted():
+    expected = sorted(choices.COUNTRIES_AND_TERRITORIES, key=itemgetter(1))
+    assert choices.COUNTRIES_AND_TERRITORIES == expected
+
+
+def test_countries_and_territories_removed():
+    countries_and_territories = [code for code, _ in choices.COUNTRIES_AND_TERRITORIES]
+
+    assert 'YU' not in countries_and_territories

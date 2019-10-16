@@ -372,3 +372,11 @@ with (fixtures / 'sic.csv').open('r') as f:
     reader = csv.DictReader(f)
     SIC_CODES = [(row['SIC Code'], row['Description']) for row in reader]
     SIC_CODES.sort(key=itemgetter(1))
+
+
+# from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/dit-sector-list
+with (fixtures / 'dit-sector-list.json').open('r') as f:
+    SECTORS = []
+    for sector in json.loads(f.read()):
+        SECTORS.append((sector['Sector code'], sector['Sector name']))
+    SECTORS.sort(key=itemgetter(1))

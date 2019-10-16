@@ -25,3 +25,12 @@ def test_sic_codes():
         '69201', 'Accounting and auditing activities'
     )
     assert choices.SIC_CODES[-1] == ('74100', 'specialised design activities')
+
+
+def test_sectors_structure():
+    assert choices.SECTORS[0] == ('SL10001', 'Advanced Engineering')
+
+
+def test_sectors_sorted():
+    expected = sorted(choices.SECTORS, key=itemgetter(1))
+    assert choices.SECTORS == expected

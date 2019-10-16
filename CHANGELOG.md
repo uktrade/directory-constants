@@ -1,5 +1,10 @@
 # Changelog
 
+## [20.9.0](https://pypi.org/project/directory-constants/20.9.0/) (2019-10-16)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/130/files)
+### Implemented Enhancements
+- Added choices.COUNTRIES_AND_TERRITORIES
+
 ## [20.8.0](https://pypi.org/project/directory-constants/20.8.0/) (2019-10-16)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/129/files)
 ### Implemented Enhancements

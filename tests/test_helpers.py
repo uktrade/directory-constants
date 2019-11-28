@@ -1,5 +1,6 @@
-from directory_constants.helpers import UrlString, get_url
 import pytest
+
+from directory_constants.helpers import UrlString, get_url, build_country_choices
 
 
 def test_get_url_value_present(settings):
@@ -32,3 +33,72 @@ def test_url_string(base, addition):
     base_url = UrlString(base)
 
     assert base_url / addition == 'https://example.com/test/'
+
+
+@pytest.mark.parametrize(
+    'exclude_all_territories,exclude,include,countries_not_present,countries_present,',
+    (
+        (
+            False,
+            [],
+            [],
+            ['AE-AZ'],
+            ['HK', 'GB', 'AS', 'IS'],
+        ),
+        (
+            False,
+            ['HK'],
+            [],
+            ['HK'],
+            [],
+        ),
+        (
+            False,
+            [],
+            ['HK', 'AE-AZ'],
+            [],
+            ['HK', 'AE-AZ'],
+        ),
+        (
+            False,
+            ['HK'],
+            ['HK'],
+            [],
+            ['HK'],
+        ),
+        (
+            True,
+            [],
+            [],
+            ['XXD', 'AS'],
+            ['GB', 'IS'],
+        ),
+        (
+            True,
+            [],
+            ['AS'],
+            [],
+            ['AS'],
+        ),
+    )
+)
+def test_filter_country_and_territories(
+    exclude_all_territories,
+    exclude,
+    include,
+    countries_present,
+    countries_not_present
+):
+    actual_countries = build_country_choices(
+        exclude_all_territories=exclude_all_territories,
+        exclude=exclude,
+        include=include,
+    )
+    country_keys = dict(actual_countries).keys()
+    assert len(country_keys) == len(set(country_keys))
+
+    for country in countries_present:
+        assert country in country_keys
+
+    for country in countries_not_present:
+        assert country not in country_keys

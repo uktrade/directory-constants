@@ -3,14 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, company_types, expertise, sectors, user_roles
-
-
-UAE_TERRITORIES_ISO_CODES = ['AE-AZ', 'AE-AJ', 'AE-DU', 'AE-FU', 'AE-RK', 'AE-SH', 'AE-UQ']
-
-HONG_KONG_ISO_CODE = 'HK'
-
-UNITED_KINGDOM_ISO_CODE = 'GB'
+from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles
 
 
 INDUSTRIES = (
@@ -389,48 +382,4 @@ with (fixtures / 'dit-sector-list.json').open('r') as f:
     SECTORS.sort(key=itemgetter(1))
 
 
-# from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/countries-and-territories
-with (fixtures / 'countries-and-territories.json').open('r') as f:
-    _countries_and_territories = []
-    for item in json.loads(f.read()):
-        if not item['End date']:
-            _countries_and_territories.append(item)
-
-
-def filter_country_and_territories(
-    countries_and_territories_list,
-    exclude_all_territories=False,
-    include_iso_codes=[],
-    exclude_iso_codes=[]
-):
-    country_list = []
-    for country_item in countries_and_territories_list:
-        if country_item['Key'] in exclude_iso_codes:
-            continue
-        elif country_item['Key'] in include_iso_codes:
-            country_list.append((country_item['Key'], country_item['Name']))
-        elif exclude_all_territories and country_item['Type'] == 'Territory':
-            continue
-        else:
-            country_list.append((country_item['Key'], country_item['Name']))
-    country_list.sort(key=itemgetter(1))
-    return country_list
-
-
-COUNTRIES_AND_TERRITORIES = filter_country_and_territories(
-    _countries_and_territories,
-    exclude_iso_codes=UAE_TERRITORIES_ISO_CODES
-)
-
-COUNTRIES_AND_SELECTED_TERRITORIES = filter_country_and_territories(
-    _countries_and_territories,
-    exclude_all_territories=True,
-    include_iso_codes=[HONG_KONG_ISO_CODE]
-)
-
-COUNTRIES_EXCLUDING_GB_AND_SELECTED_TERRITORIES = filter_country_and_territories(
-    _countries_and_territories,
-    exclude_all_territories=True,
-    include_iso_codes=[HONG_KONG_ISO_CODE],
-    exclude_iso_codes=[UNITED_KINGDOM_ISO_CODE]
-)
+COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()

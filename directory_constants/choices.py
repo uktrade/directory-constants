@@ -3,7 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, company_types, expertise, sectors, user_roles
+from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles
 
 
 INDUSTRIES = (
@@ -382,10 +382,4 @@ with (fixtures / 'dit-sector-list.json').open('r') as f:
     SECTORS.sort(key=itemgetter(1))
 
 
-# from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/countries-and-territories
-with (fixtures / 'countries-and-territories.json').open('r') as f:
-    COUNTRIES_AND_TERRITORIES = []
-    for item in json.loads(f.read()):
-        if not item['End date']:
-            COUNTRIES_AND_TERRITORIES.append((item['Key'], item['Name']))
-    COUNTRIES_AND_TERRITORIES.sort(key=itemgetter(1))
+COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()

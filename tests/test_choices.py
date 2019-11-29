@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-from directory_constants import choices
+from directory_constants import choices, helpers
 
 
 def test_country_choices_structure():
@@ -37,7 +37,11 @@ def test_sectors_sorted():
 
 
 def test_countries_and_territories_structure():
-    assert choices.COUNTRIES_AND_TERRITORIES[0] == ('AE-AZ', 'Abu Dhabi')
+    assert choices.COUNTRIES_AND_TERRITORIES[0] == ('AF', 'Afghanistan')
+    country_keys = dict(choices.COUNTRIES_AND_TERRITORIES).keys()
+    for uae_territory in helpers.UAE_TERRITORIES_ISO_CODES:
+        assert uae_territory not in country_keys
+    assert 'AS' in country_keys  # Territory -  American Samoa
 
 
 def test_countries_and_territories_sorted():

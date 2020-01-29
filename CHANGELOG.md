@@ -1,4 +1,8 @@
 # Changelog
+## [20.11.0](https://pypi.org/project/directory-constants/20.11.0/) (2020-01-29)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/132/files)
+### Implemented Enhancements
+- XOT-1198 - Added COOKIE_PREFERENCE_SETTINGS url constant for updated cookie banner
 
 ## [20.10.0](https://pypi.org/project/directory-constants/20.10.0/) (2019-11-28)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/131/files)

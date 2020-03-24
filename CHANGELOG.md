@@ -1,4 +1,9 @@
 # Changelog
+## [20.12.0](https://pypi.org/project/directory-constants/20.12.0/) (2020-03-24)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/133/files)
+### Implemented Enhancements
+- Extend Django support to current latest release v3.0.5
+
 ## [20.11.0](https://pypi.org/project/directory-constants/20.11.0/) (2020-01-29)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/132/files)
 ### Implemented Enhancements

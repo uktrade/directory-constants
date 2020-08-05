@@ -1,59 +1,11 @@
 # Changelog
-## [20.12.0](https://pypi.org/project/directory-constants/20.12.0/) (2020-03-24)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/133/files)
-### Implemented Enhancements
-- Extend Django support to current latest release v3.0.5
 
-## [20.11.0](https://pypi.org/project/directory-constants/20.11.0/) (2020-01-29)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/132/files)
-### Implemented Enhancements
-- XOT-1198 - Added COOKIE_PREFERENCE_SETTINGS url constant for updated cookie banner
 
-## [20.10.0](https://pypi.org/project/directory-constants/20.10.0/) (2019-11-28)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/131/files)
-### Implemented Enhancements
-- Updated choices.COUNTRIES_AND_TERRITORIES
-- Added build_country_choices to helpers
-
-## [20.9.0](https://pypi.org/project/directory-constants/20.9.0/) (2019-10-16)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/130/files)
-### Implemented Enhancements
-- Added choices.COUNTRIES_AND_TERRITORIES
-
-## [20.8.0](https://pypi.org/project/directory-constants/20.8.0/) (2019-10-16)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/129/files)
-### Implemented Enhancements
-- Added choices.SECTORS
-
-## [20.7.0](https://pypi.org/project/directory-constants/20.7.0/) (2019-10-03)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/127/files)
-### Implemented Enhancements
-- Updated About us url from `about-dit`  to `about-us`
-
-## [20.6.0](https://pypi.org/project/directory-constants/20.6.0/) (2019-10-01)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/126/files)
-### Implemented Enhancements
-- Added expand slug and capital invest slug to ISD url
-
-## [20.5.0](https://pypi.org/project/directory-constants/20.5.0/) (2019-09-24)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/125/files)
-### Implemented Enhancements
-- Added content into new how we help urls
-
-## [20.4.0](https://pypi.org/project/directory-constants/20.4.0/) (2019-09-24)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/124/files)
-### Implemented Enhancements
-- Added how we help urls to international urls
-
-## [20.3.0](https://pypi.org/project/directory-constants/20.3.0/) (2019-09-17)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/123/files)
-### Implemented Enhancements
-- GTRANSFORM-368 added accessibilty-statement to slugs
-
-## [20.2.0](https://pypi.org/project/directory-constants/20.2.0/) (2019-09-17)
+## [20.2.0]((https://pypi.org/project/directory-constants/20.1.0/) (2020-08-05))
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/122/files)
-### Implemented Enhancements
-- GTRANSFORM-368 - Add constant for accessibility statement footer link
+### Hot fix
+- Security fix upgrade django
+
 
 ## [20.1.0]((https://pypi.org/project/directory-constants/20.1.0/) (2019-09-11))
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/121/files)

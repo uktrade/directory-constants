@@ -1,4 +1,9 @@
 # Changelog
+## [20.13.0](https://pypi.org/project/directory-constants/20.13.0/) (2020-08-05)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/134/files)
+### Implemented Enhancements
+- Security fix upgrade django to support 3.0.6
+
 ## [20.12.0](https://pypi.org/project/directory-constants/20.12.0/) (2020-03-24)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/133/files)
 ### Implemented Enhancements

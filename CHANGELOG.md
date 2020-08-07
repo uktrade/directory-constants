@@ -1,7 +1,7 @@
 # Changelog
 
-## [20.14.0](https://pypi.org/project/directory-constants/20.13.1/) (2020-08-07)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/135/files)
+## [20.14.!](https://pypi.org/project/directory-constants/20.14.1/) (2020-08-07)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/136/files)
 ### Implemented Enhancements
 - GP2-315-add exporting constants
 

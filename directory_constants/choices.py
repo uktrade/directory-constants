@@ -3,7 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles
+from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles, exporting
 
 
 INDUSTRIES = (
@@ -383,3 +383,22 @@ with (fixtures / 'dit-sector-list.json').open('r') as f:
 
 
 COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()
+
+
+MARKET_ROUTE_CHOICES = (
+    (exporting.MARKETING_AT_EVENTS, 'Marketing at events'),
+    (exporting.ONLINE_MARKETING, 'Online marketing'),
+    (exporting.OTHER, 'Other'),
+)
+
+
+PRODUCT_PROMOTIONAL_CHOICES = (
+    (exporting.DIRECT_SALES, 'Direct sales'),
+    (exporting.INTERNATIONAL_E_COMMERCE, 'International e-commerce'),
+    (exporting.AGENT_OR_DISTRIBUTOR, 'Agent or distributor'),
+    (exporting.LICENSING, 'Licensing'),
+    (exporting.FRANCHISING, 'Franchising'),
+    (exporting.JOINT_VENTURES, 'Joint ventures'),
+    (exporting.SET_UP_A_BUSINESS_ABROAD, 'Set up a business abroad'),
+    (exporting.OTHER, 'Other'),
+)

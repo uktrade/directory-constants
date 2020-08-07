@@ -386,7 +386,7 @@ COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()
 
 
 MARKET_ROUTE_CHOICES = (
-    (exporting.MARKETING_AT_EVENTS,'Marketing at events'),
+    (exporting.MARKETING_AT_EVENTS, 'Marketing at events'),
     (exporting.ONLINE_MARKETING, 'Online marketing'),
     (exporting.OTHER, 'Other'),
 )

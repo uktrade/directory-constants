@@ -1,7 +1,7 @@
 # Changelog
 
 ## [20.15.0](https://pypi.org/project/directory-constants/20.15.0/) (2020-09-03)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/137/files)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/140/files)
 ### Implemented Enhancements
 - GP2-519 add turn over choices
 

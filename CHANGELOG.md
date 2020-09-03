@@ -1,6 +1,11 @@
 # Changelog
 
-## [20.14.!](https://pypi.org/project/directory-constants/20.14.1/) (2020-08-07)
+## [20.15.0](https://pypi.org/project/directory-constants/20.15.0/) (2020-09-03)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/140/files)
+### Implemented Enhancements
+- GP2-519 add turn over choices
+
+## [20.14.1](https://pypi.org/project/directory-constants/20.14.1/) (2020-08-07)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/136/files)
 ### Implemented Enhancements
 - GP2-315-add exporting constants

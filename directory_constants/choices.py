@@ -402,3 +402,14 @@ PRODUCT_PROMOTIONAL_CHOICES = (
     (exporting.SET_UP_A_BUSINESS_ABROAD, 'Set up a business abroad'),
     (exporting.OTHER, 'Other'),
 )
+
+TURNOVER_CHOICES = (
+    ('<83k', 'Below £83,000 (Below VAT registered)'),
+    ('83k-499.999k', '£83,000 up to £499,999'),
+    ('50k-1999.999k', '£500,000 up to £1,999,999'),
+    ('2m-4999.999k', '£2 million up to £4,999,999'),
+    ('5m-9999.999k', '£5 million up to £9,999,999'),
+    ('10m-49999.999k', '£10 million up to £49,999,999'),
+    ('50m+', '£50 million or over'),
+    ('', 'Don\'t know')
+)

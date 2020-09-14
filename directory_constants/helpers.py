@@ -78,5 +78,4 @@ def build_country_region_choices(
                     'type': item.get('Type')
                 })
 
-    # country_list.sort(key='name')
     return country_list

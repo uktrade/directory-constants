@@ -56,3 +56,27 @@ def build_country_choices(
             country_list.append((country_item['Key'], country_item['Name']))
     country_list.sort(key=itemgetter(1))
     return country_list
+
+
+def build_country_region_choices(
+    exclude_all_territories=False,
+    include=[],
+    exclude=[]
+):
+
+    country_list = []
+    exclude = UAE_TERRITORIES_ISO_CODES + exclude
+    with (fixtures / 'countryorterritory.region.type.json').open('r') as f:
+        countries_and_territories_data = []
+        for item in json.loads(f.read()):
+            iso2 = item.get('Country or Territory: ISO 2 code')
+            if (iso2 in include) or not (iso2 in exclude or (exclude_all_territories and item['Type'] == 'Territory')):
+                country_list.append({
+                    'id': iso2,
+                    'name': item.get('Country or Territory: Name'),
+                    'region': item.get('HMTC overseas region: Overseas regions name'),
+                    'type': item.get('Type')
+                })
+
+    # country_list.sort(key='name')
+    return country_list

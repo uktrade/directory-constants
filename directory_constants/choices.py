@@ -383,6 +383,7 @@ with (fixtures / 'dit-sector-list.json').open('r') as f:
 
 
 COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()
+COUNTRIES_AND_TERRITORIES_REGION = helpers.build_country_region_choices()
 
 
 MARKET_ROUTE_CHOICES = (

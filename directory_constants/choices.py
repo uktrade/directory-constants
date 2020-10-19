@@ -386,14 +386,14 @@ COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()
 COUNTRIES_AND_TERRITORIES_REGION = helpers.build_country_region_choices()
 
 
-MARKET_ROUTE_CHOICES = (
+PRODUCT_PROMOTIONAL_CHOICES = (
     (exporting.MARKETING_AT_EVENTS, 'Marketing at events'),
     (exporting.ONLINE_MARKETING, 'Online marketing'),
     (exporting.OTHER, 'Other'),
 )
 
 
-PRODUCT_PROMOTIONAL_CHOICES = (
+MARKET_ROUTE_CHOICES = (
     (exporting.DIRECT_SALES, 'Direct sales'),
     (exporting.INTERNATIONAL_E_COMMERCE, 'International e-commerce'),
     (exporting.AGENT_OR_DISTRIBUTOR, 'Agent or distributor'),

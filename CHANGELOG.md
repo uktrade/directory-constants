@@ -1,4 +1,8 @@
 # Changelog
+## [20.17.0](https://pypi.org/project/directory-constants/20.17.0/) (2020-10-19)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/142/files)
+### Implemented Enhancements
+GP2-699-swamp-route-to-market-constants
 
 ## [20.16.0](https://pypi.org/project/directory-constants/20.16.0/) (2020-09-14)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/141/files)

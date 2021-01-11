@@ -1,4 +1,9 @@
 # Changelog
+## [20.18.0](https://pypi.org/project/directory-constants/20.18.0/) (2021-01-11)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/143/files)
+### Implemented Enhancements
+GP2-849-target-choices
+
 ## [20.17.0](https://pypi.org/project/directory-constants/20.17.0/) (2020-10-19)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/142/files)
 ### Implemented Enhancements

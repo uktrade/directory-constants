@@ -414,3 +414,14 @@ TURNOVER_CHOICES = (
     ('50m+', '£50 million or over'),
     ('', 'Don\'t know')
 )
+
+TARGET_AGE_GROUP_CHOICES = (
+    ('0-14', '0-14 year olds'),
+    ('15-19', '15-19 year olds'),
+    ('20-24', '20-24 year olds'),
+    ('25-34', '25-34 year olds'),
+    ('35-44', '35-44 year olds'),
+    ('45-54', '45-54 year olds'),
+    ('55-64', '55-64 year olds'),
+    ('65+', '65 years old and over'),
+)

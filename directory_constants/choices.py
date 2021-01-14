@@ -425,3 +425,16 @@ TARGET_AGE_GROUP_CHOICES = (
     ('55-64', '55-64 year olds'),
     ('65+', '65 years old and over'),
 )
+
+EXPORT_UNITS = (
+    ('m', 'metre(s)'),
+    ('g', 'gram(s)'),
+    ('kg', 'kilogram(s)'),
+    ('piece', 'piece(s)'),
+    ('set', 'set(s)'),
+    ('pack', 'pack(s)'),
+)
+
+EXPORT_TIMEFRAME = (
+    ('d', 'day(s)'), ('m', 'month(s)'), ('y', 'year(s)')
+)

@@ -1,4 +1,9 @@
 # Changelog
+## [20.20.0](https://pypi.org/project/directory-constants/20.20.0/) (2021-01-21)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/145/files)
+### Implemented Enhancements
+GP2-1359-add-funding=option-choices
+
 ## [20.19.0](https://pypi.org/project/directory-constants/20.19.0/) (2021-01-14)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/144/files)
 ### Implemented Enhancements

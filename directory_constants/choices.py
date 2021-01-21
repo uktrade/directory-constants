@@ -438,3 +438,8 @@ EXPORT_UNITS = (
 EXPORT_TIMEFRAME = (
     ('d', 'day(s)'), ('m', 'month(s)'), ('y', 'year(s)')
 )
+
+FUNDING_OPTIONS = (
+    ('bank-loan', 'Bank loan'), ('government', 'Finance support from government'), ('platforms', 'Finance platforms'),
+    ('p-p', 'Peer-to-peer loan'), ('equity', 'Equity finance'), ('other', 'Other'),
+)

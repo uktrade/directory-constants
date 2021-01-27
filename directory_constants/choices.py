@@ -451,6 +451,6 @@ TRANSPORT_OPTIONS = (
 )
 
 WATER_TRANSPORT_OPTIONS = (
-    ('fas', 'Free Alongside Ship (FAS)', ('fob', 'Free on Board (FOB)'),
-     ('cfr', 'Cost and Freight (CFR)'), ('cif', 'Cost, Insurance and Freight (CIF)'),)
+    ('fas', 'Free Alongside Ship (FAS)'), ('fob', 'Free on Board (FOB)'),
+    ('cfr', 'Cost and Freight (CFR)'), ('cif', 'Cost, Insurance and Freight (CIF)')
 )

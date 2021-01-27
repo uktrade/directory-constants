@@ -1,6 +1,6 @@
 # Changelog
-## [20.21.0](https://pypi.org/project/directory-constants/20.21.0/) (2021-01-27)
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/146/files)
+## [20.21.1](https://pypi.org/project/directory-constants/20.21.1/) (2021-01-27)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/147/files)
 ### Implemented Enhancements
 GP2-1382-getting-paid-options
 

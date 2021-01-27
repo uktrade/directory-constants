@@ -443,3 +443,14 @@ FUNDING_OPTIONS = (
     ('bank-loan', 'Bank loan'), ('government', 'Finance support from government'), ('platforms', 'Finance platforms'),
     ('p-p', 'Peer-to-peer loan'), ('equity', 'Equity finance'), ('other', 'Other'),
 )
+
+TRANSPORT_OPTIONS = (
+    ('exw', 'Ex Works (EXW)'), ('fca', 'Free Carrier (FCA)'), ('cip', 'Carrier and Insurance Paid to (CIP)'),
+    ('dpu', 'Delivered at Place Unloaded (DPU)'), ('dap', 'Delivered at Place (DAP)'),
+    ('dpp', 'Delivered Duty Paid (DDP)'),
+)
+
+WATER_TRANSPORT_OPTIONS = (
+    ('fas', 'Free Alongside Ship (FAS)', ('fob', 'Free on Board (FOB)'),
+     ('cfr', 'Cost and Freight (CFR)'), ('cif', 'Cost, Insurance and Freight (CIF)'),)
+)

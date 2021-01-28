@@ -3,7 +3,7 @@ import json
 from operator import itemgetter
 from pathlib import Path
 
-from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles, exporting
+from directory_constants import cms, company_types, expertise, helpers, sectors, user_roles, exporting, export_plan
 
 
 INDUSTRIES = (
@@ -440,17 +440,35 @@ EXPORT_TIMEFRAME = (
 )
 
 FUNDING_OPTIONS = (
-    ('bank-loan', 'Bank loan'), ('government', 'Finance support from government'), ('platforms', 'Finance platforms'),
-    ('p-p', 'Peer-to-peer loan'), ('equity', 'Equity finance'), ('other', 'Other'),
+    (export_plan.BANK_LOAN, 'Bank loan'), (export_plan.GOVERNMENT, 'Finance support from government'),
+    (export_plan.FINANCE_PLATFORMS, 'Finance platforms'), (export_plan.PEER_TO_PEER_LOANS, 'Peer-to-peer loan'),
+    (export_plan.EQUITY_FINANCE, 'Equity finance'), (export_plan.OTHER, 'Other'),
 )
 
 TRANSPORT_OPTIONS = (
-    ('exw', 'Ex Works (EXW)'), ('fca', 'Free Carrier (FCA)'), ('cip', 'Carrier and Insurance Paid to (CIP)'),
-    ('dpu', 'Delivered at Place Unloaded (DPU)'), ('dap', 'Delivered at Place (DAP)'),
-    ('dpp', 'Delivered Duty Paid (DDP)'),
+    (export_plan.EX_WORKS, 'Ex Works (EXW)'), (export_plan.FREE_CARRIER, 'Free Carrier (FCA)'),
+    (export_plan.CARRIER_INSURANCE_PAID, 'Carrier and Insurance Paid to (CIP)'),
+    (export_plan.DELIVERED_PLACE_UNLOADED, 'Delivered at Place Unloaded (DPU)'),
+    (export_plan.DELIVERED_AT_PLACE, 'Delivered at Place (DAP)'),
+    (export_plan.DELIVERED_DUTY_PAID, 'Delivered Duty Paid (DDP)'),
 )
 
 WATER_TRANSPORT_OPTIONS = (
-    ('fas', 'Free Alongside Ship (FAS)'), ('fob', 'Free on Board (FOB)'),
-    ('cfr', 'Cost and Freight (CFR)'), ('cif', 'Cost, Insurance and Freight (CIF)')
+    (export_plan.FREE_ALONG_SHIP, 'Free Alongside Ship (FAS)'), (export_plan.FREE_ON_BOARD, 'Free on Board (FOB)'),
+    (export_plan.COST_AND_FREIGHT, 'Cost and Freight (CFR)'),
+    (export_plan.COST_INSURANCE_FREIGHT, 'Cost, Insurance and Freight (CIF)')
+)
+
+PAYMENT_METHOD_OPTIONS = (
+    (export_plan.INTERNATIONAL_BANK_TRANSFER, 'International bank transfers'),
+    (export_plan.CREDIT_DEBIT, 'Credit or debit card payments'),
+    (export_plan.MERCHANT_SERVICES, 'Merchant services'),
+    (export_plan.LOCAL_BANK_TRANSFERS, 'Local bank transfers'), ('other', 'Other')
+)
+
+PAYMENT_TERM_OPTIONS = (
+    (export_plan.PAYMENT_IN_ADVANCE, 'Payment in advance'),
+    (export_plan.LETTER_OF_CREDIT, 'Letter of credit'),
+    (export_plan.BANK_DOCUMENTARY_COLLECTION, 'Bank collection or documentary collections (D/C)'),
+    (export_plan.OPEN_ACCOUNT, 'Open account'), (export_plan.OTHER, 'Other')
 )

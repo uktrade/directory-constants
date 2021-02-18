@@ -472,3 +472,19 @@ PAYMENT_TERM_OPTIONS = (
     (export_plan.BANK_DOCUMENTARY_COLLECTION, 'Bank collection or documentary collections (D/C)'),
     (export_plan.OPEN_ACCOUNT, 'Open account'), (export_plan.OTHER, 'Other')
 )
+
+RISK_LIKELIHOOD_OPTIONS = (
+    (export_plan.RARE, 'Rare'),
+    (export_plan.UNLIKELY, 'Unlikely'),
+    (export_plan.POSSIBLE, 'Possible'),
+    (export_plan.LIKELY, 'Likely'),
+    (export_plan.CERTAIN, 'Certain'),
+)
+
+RISK_IMPACT_OPTIONS = (
+    (export_plan.TRIVIAL, 'Trivial'),
+    (export_plan.MINOR, 'Minor'),
+    (export_plan.MODERATE, 'Moderate'),
+    (export_plan.MAJOR, 'Major'),
+    (export_plan.SEVERE, 'Severe'),
+)

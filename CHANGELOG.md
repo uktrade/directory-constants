@@ -1,4 +1,9 @@
 # Changelog
+## [20.23.0](https://pypi.org/project/directory-constants/20.23.0/) (2021-02-18)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/149/files)
+### Implemented Enhancements
+GP2-1181-business-risk-options
+
 ## [20.22.0](https://pypi.org/project/directory-constants/20.22.0/) (2021-01-28)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/148/files)
 ### Implemented Enhancements

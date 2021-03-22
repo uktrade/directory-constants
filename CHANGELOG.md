@@ -1,4 +1,7 @@
 # Changelog
+
+## [20.24.0](https://pypi.org/project/directory-constants/20.24.0/) (2021-03-22)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/150/files)
 ## [20.23.0](https://pypi.org/project/directory-constants/20.23.0/) (2021-02-18)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/149/files)
 ### Implemented Enhancements

@@ -380,8 +380,6 @@ with (fixtures / 'dit-sector-list-legacy.json').open('r') as f:
     SECTORS = []
     for sector in json.loads(f.read()):
         SECTORS.append((sector['Sector code'], sector['Sector name']))
-    import pdb
-    pdb.set_trace()
     SECTORS.sort(key=itemgetter(1))
 
 

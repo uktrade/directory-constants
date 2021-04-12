@@ -375,11 +375,27 @@ with (fixtures / 'sic.csv').open('r') as f:
 
 
 # from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/dit-sector-list
-with (fixtures / 'dit-sector-list.json').open('r') as f:
+# old list which can't change for now since it's used in BAU domestic / directory-cms for tagging sectors
+with (fixtures / 'dit-sector-list-legacy.json').open('r') as f:
     SECTORS = []
     for sector in json.loads(f.read()):
         SECTORS.append((sector['Sector code'], sector['Sector name']))
     SECTORS.sort(key=itemgetter(1))
+
+
+# from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/dit-sector-list
+# Use for latest sector list for newer files
+with (fixtures / 'dit-sector-list.json').open('r') as f:
+    # Create a list of unique Sector names, we order by the ID as we want the first one in the list to get top level
+    SECTOR_NAMES = []
+    all_sectors = json.loads(f.read())
+    all_sectors.sort(key=itemgetter('Sector ID'))
+    seen = set()
+    for sector in all_sectors:
+        if sector['Sector name'] not in seen:
+            SECTOR_NAMES.append((sector['Sector ID'], sector['Sector name']))
+            seen.add(sector['Sector name'])
+    SECTOR_NAMES.sort(key=itemgetter(1))
 
 
 COUNTRIES_AND_TERRITORIES = helpers.build_country_choices()

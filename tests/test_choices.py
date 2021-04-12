@@ -27,8 +27,19 @@ def test_sic_codes():
     assert choices.SIC_CODES[-1] == ('74100', 'specialised design activities')
 
 
+def test_sector_names_structure():
+    assert choices.SECTOR_NAMES[0] == ('SL0001', 'Advanced engineering')
+    assert len(choices.SECTORS) == 28
+
+
+def test_sector_names_sorted():
+    expected = sorted(choices.SECTOR_NAMES, key=itemgetter(1))
+    assert choices.SECTOR_NAMES == expected
+
+
 def test_sectors_structure():
     assert choices.SECTORS[0] == ('SL10001', 'Advanced Engineering')
+    assert len(choices.SECTORS) == 28
 
 
 def test_sectors_sorted():

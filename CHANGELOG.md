@@ -1,4 +1,7 @@
 # Changelog
+## [20.25.0](https://pypi.org/project/directory-constants/20.25.0/) (2021-04-08)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/151/files)
+GP2-1709-add-dir-sectors new sector lists for magna use
 
 ## [20.24.0](https://pypi.org/project/directory-constants/20.24.0/) (2021-03-22)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/150/files)

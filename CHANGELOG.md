@@ -1,8 +1,12 @@
 # Changelog
 
+## [20.27.0](https://pypi.org/project/directory-constants/20.27.0/) (2021-04-27)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/154/files)
+- GP2-2332 - minor tweaks for magna urls
+
 ## [20.26.0](https://pypi.org/project/directory-constants/20.26.0/) (2021-04-16)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/152/files)
-GP2-2256-magna header/footer urls to directory-components
+- GP2-2256-magna header/footer urls to directory-components
 ## [20.25.0](https://pypi.org/project/directory-constants/20.25.0/) (2021-04-08)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/151/files)
 GP2-1709-add-dir-sectors new sector lists for magna use

@@ -3,6 +3,8 @@ from directory_constants.helpers import get_url
 
 # SERVICES
 HOME = get_url('DIRECTORY_CONSTANTS_URL_GREAT_MAGNA', 'https://www.great.gov.uk')
+INTERNATIONAL = HOME / 'international'
+
 
 # Header links
 LEARN = HOME / 'learn'
@@ -13,6 +15,7 @@ EXPORT_PLAN = HOME / 'export-plan'
 EXPORT_PLAN_DASHBOARD = EXPORT_PLAN / 'dashboard'
 
 ADVICE = HOME / 'advice'
+ACCOUNT = HOME / 'profile'
 MARKETS = HOME / 'markets'
 
 SEARCH = HOME / 'search'

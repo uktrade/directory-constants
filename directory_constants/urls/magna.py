@@ -27,7 +27,7 @@ ABOUT = HOME / 'about'
 COOKIE_PREFERENCE_SETTINGS = HOME / 'cookies'
 
 # footer links
-CONTACT_US = HOME / 'contact-us'
+CONTACT_US = HOME / 'contact'
 CONTACT_US_HELP = CONTACT_US / 'help'
 PRIVACY_AND_COOKIES = HOME / 'privacy-and-cookies'
 TERMS_AND_CONDITIONS = HOME / 'terms-and-conditions'

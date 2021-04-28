@@ -1,32 +1,34 @@
 # Changelog
 
+## [20.28.0](https://pypi.org/project/directory-constants/20.28.0/) (2021-04-28)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/155/files)
+- GP2-2358 - Update contact us URL for mange
+
 ## [20.27.0](https://pypi.org/project/directory-constants/20.27.0/) (2021-04-27)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/154/files)
 - GP2-2332 - minor tweaks for magna urls
-
 ## [20.26.0](https://pypi.org/project/directory-constants/20.26.0/) (2021-04-16)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/152/files)
 - GP2-2256-magna header/footer urls to directory-components
 ## [20.25.0](https://pypi.org/project/directory-constants/20.25.0/) (2021-04-08)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/151/files)
-GP2-1709-add-dir-sectors new sector lists for magna use
-
+- GP2-1709-add-dir-sectors new sector lists for magna use
 ## [20.24.0](https://pypi.org/project/directory-constants/20.24.0/) (2021-03-22)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/150/files)
 ## [20.23.0](https://pypi.org/project/directory-constants/20.23.0/) (2021-02-18)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/149/files)
 ### Implemented Enhancements
-GP2-1181-business-risk-options
+- GP2-1181-business-risk-options
 
 ## [20.22.0](https://pypi.org/project/directory-constants/20.22.0/) (2021-01-28)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/148/files)
 ### Implemented Enhancements
-GP2-1382-getting-paid-payment-options
+- GP2-1382-getting-paid-payment-options
 
 ## [20.21.1](https://pypi.org/project/directory-constants/20.21.1/) (2021-01-27)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/147/files)
 ### Implemented Enhancements
-GP2-1382-getting-paid-options
+- GP2-1382-getting-paid-options
 
 
 ## [20.20.0](https://pypi.org/project/directory-constants/20.20.0/) (2021-01-21)

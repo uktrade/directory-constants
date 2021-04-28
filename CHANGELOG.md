@@ -1,5 +1,9 @@
 # Changelog
 
+## [20.28.0](https://pypi.org/project/directory-constants/20.28.0/) (2021-04-28)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/155/files)
+- GP2-2358 - Update contact us URL for mange
+
 ## [20.27.0](https://pypi.org/project/directory-constants/20.27.0/) (2021-04-27)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/154/files)
 - GP2-2332 - minor tweaks for magna urls

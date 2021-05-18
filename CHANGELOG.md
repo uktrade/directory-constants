@@ -1,5 +1,8 @@
 # Changelog
 
+## [20.28.1](https://pypi.org/project/directory-constants/20.28.1/) (2021-05-14)
+- NOTICKET - Update Django to security-patched version 3.1.11
+
 ## [20.28.0](https://pypi.org/project/directory-constants/20.28.0/) (2021-04-28)
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/155/files)
 - GP2-2358 - Update contact us URL for mange

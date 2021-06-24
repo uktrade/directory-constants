@@ -1,5 +1,8 @@
 # Changelog
 
+## [21.0.0](https://pypi.org/project/directory-constants/21.0.0/) (2021-06-24)
+- NOTICKET - Updated Django
+
 ## [20.28.1](https://pypi.org/project/directory-constants/20.28.1/) (2021-05-14)
 - NOTICKET - Update Django to security-patched version 3.1.11
 

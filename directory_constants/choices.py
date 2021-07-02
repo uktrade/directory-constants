@@ -373,6 +373,11 @@ with (fixtures / 'sic.csv').open('r') as f:
     SIC_CODES = [(row['SIC Code'], row['Description']) for row in reader]
     SIC_CODES.sort(key=itemgetter(1))
 
+# Draft SIC code to DIT sector mapping 
+with (fixtures / 'sic-codes-mapped-dit-sectors.csv').open('r') as f:
+    reader = csv.DictReader(f)
+    SIC_SECTOR_MAPPING = [row for row in reader]
+
 
 # from https://data.trade.gov.uk/catalogue/reference-data-sets/reference/dit-sector-list
 # old list which can't change for now since it's used in BAU domestic / directory-cms for tagging sectors

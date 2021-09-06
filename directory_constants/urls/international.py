@@ -45,6 +45,7 @@ NEWS = CONTENT_ROOT / 'news/'
 
 # contact
 CONTACT = INTERNATIONAL_CONTACT_TRIAGE
+CONTACT_US = HOME / 'contact/'
 
 # isd
 EXPAND_ISD_HOME = HOME / 'investment-support-directory'

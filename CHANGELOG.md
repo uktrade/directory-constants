@@ -1,5 +1,8 @@
 # Changelog
 
+## [21.0.2](https://pypi.org/project/directory-constants/21.0.2/) (2021-09-06)
+- GP2-3281 - Update international contact url
+
 ## [21.0.0](https://pypi.org/project/directory-constants/21.0.0/) (2021-06-24)
 - NOTICKET - Updated Django
 

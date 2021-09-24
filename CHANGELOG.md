@@ -1,4 +1,6 @@
 # Changelog
+## [21.1.0](https://pypi.org/project/directory-constants/21.1.0/) (2021-9-24)
+- GP2-3404 fix-header-links
 
 ## [21.0.3](https://pypi.org/project/directory-constants/21.0.3/) (2021-09-06)
 - NOTICKET - Updated setup for django version

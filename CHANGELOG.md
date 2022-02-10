@@ -1,4 +1,8 @@
 # Changelog
+
+
+## [21.2.0](https://pypi.org/project/directory-constants/21.2.0/) (2022-2-10)
+- GLS-99 Django upgrade
 ## [21.1.0](https://pypi.org/project/directory-constants/21.1.0/) (2021-9-24)
 - GP2-3404 fix-header-links
 

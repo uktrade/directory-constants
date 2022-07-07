@@ -1,5 +1,8 @@
 # Changelog
 
+## [21.4.0](https://pypi.org/project/directory-constants/21.4.0/) (2022-7-7)
+- GLS-298 Update Django to security-patched version 3.2.14
+
 ## [21.3.0](https://pypi.org/project/directory-constants/21.3.0/) (2022-4-27)
 - GLS-190 Update Django to security-patched version 3.2.13
 

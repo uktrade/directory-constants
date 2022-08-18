@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="directory_constants",
-    version="21.5.0",
+    version="22.0.0",
     url="https://github.com/uktrade/directory-constants",
     license="MIT",
     author="Department for International Trade",
@@ -29,7 +29,7 @@ setup(
             "pytest==3.6.0",
             "pytest-cov==2.7.1",
             "pytest-django==3.3.0",
-            "flake8==3.0.4",
+            "flake8==5.0.4",
             "twine>=1.11.0,<2.0.0",
             "wheel>=0.31.0,<1.0.0",
             "freezegun==0.3.8",
@@ -44,11 +44,12 @@ setup(
         "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.1",
+        "Framework :: Django :: 3.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.9",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
 )

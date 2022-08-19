@@ -1,5 +1,8 @@
 # Changelog
 
+## [22.0.0](https://pypi.org/project/directory-constants/22.0.0/) (2022-8-18)
+- GLS-383 - Dependencies upgrade
+
 ## [21.5.0](https://pypi.org/project/directory-constants/21.5.0/) (2022-8-15)
 - GLS-371 Update Django to security-patched version 3.2.15
 ## [21.4.0](https://pypi.org/project/directory-constants/21.4.0/) (2022-7-7)

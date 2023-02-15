@@ -1,5 +1,8 @@
 # Changelog
 
+## [22.0.2](https://pypi.org/project/directory-constants/22.0.2/) (2023-2-15)
+- KLS-398 - Update django requires to less than 4.0.0
+
 ## [22.0.0](https://pypi.org/project/directory-constants/22.0.0/) (2022-8-18)
 - GLS-383 - Dependencies upgrade
 

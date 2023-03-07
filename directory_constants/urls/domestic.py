@@ -36,7 +36,7 @@ CONTACT_US = HOME / 'contact'
 FEEDBACK = CONTACT_US / 'feedback'
 OFFICE_FINDER = CONTACT_US / 'office-finder'
 
-DIT = 'https://www.gov.uk/government/organisations/department-for-international-trade'
+DIT = 'https://www.gov.uk/government/organisations/department-for-business-and-trade'
 
 INTERNATIONAL_CONTACT_TRIAGE = CONTACT_US / 'triage/international'
 

@@ -1,5 +1,6 @@
 # Changelog
-
+## [23.0.0](https://pypi.org/project/directory-constants/22.0.2/) (2023-2-15)
+- Change gov uk link to Department of business and trade
 ## [22.0.2](https://pypi.org/project/directory-constants/22.0.2/) (2023-2-15)
 - KLS-398 - Update django requires to less than 4.0.0
 

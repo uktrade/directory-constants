@@ -6,10 +6,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="directory_constants",
-    version="22.0.2",
+    version="23.0.0",
     url="https://github.com/uktrade/directory-constants",
     license="MIT",
-    author="Department for International Trade",
+    author="Department for Business and Trade",
     description="Constant values shared between Directory apps.",
     packages=find_packages(exclude=["tests.*", "tests"]),
     long_description=open("README.md").read(),

@@ -1,4 +1,9 @@
 # Changelog
+
+## [23.0.1]
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/171/files) (2023-03-17)
+### Enhancement
+- KLS-449 - Upgrade Django to 3.2.18
 ## [23.0.0](https://pypi.org/project/directory-constants/22.0.2/) (2023-2-15)
 - Change gov uk link to Department of business and trade
 ## [22.0.2](https://pypi.org/project/directory-constants/22.0.2/) (2023-2-15)

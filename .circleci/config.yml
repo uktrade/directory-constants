@@ -18,7 +18,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "requirements-dev.txt" }}-{{ checksum "setup.py" }}
+          - v1-dependencies-{{ checksum "setup.py" }}
       - run:
           command: |
             python3 -m venv .venv
@@ -28,7 +28,7 @@ jobs:
       - save_cache:
           paths:
             - ./venv
-          key: v1-dependencies-{{ checksum "requirements-dev.txt" }}-{{ checksum "setup.py" }}
+          key: v1-dependencies-{{ checksum "setup.py" }}
 
 workflows:
   version: 2

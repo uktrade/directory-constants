@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="directory_constants",
-    version="23.0.3",
+    version="23.1.0",
     url="https://github.com/uktrade/directory-constants",
     license="MIT",
     author="Department for Business and Trade",
@@ -45,6 +45,7 @@ setup(
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.1",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",

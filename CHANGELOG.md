@@ -2,7 +2,7 @@
 
 
 ## [23.0.3]
-[Full Changelog]() (2023-05-16)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/174) (2023-05-16)
 ### Enhancement
 - KLS-569 - Upgrade Django to 4.1.9
 ## [23.0.2]

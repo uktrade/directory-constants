@@ -2,9 +2,9 @@
 
 
 ## [23.1.0]
-[Full Changelog]() (2023-05-16)
+[Full Changelog]() (2023-05-17)
 ### Enhancement
-- KLS-569 - Upgrade Django to 4.1.9
+- KLS-569 - Upgrade Django to 4.2.1
 ## [23.0.2]
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/173/files) (2023-04-06)
 ### Enhancement

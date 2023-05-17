@@ -22,7 +22,7 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        "django>=3.2.18,<=4.1.9",
+        "django>=3.2.18,<=4.2.1",
     ],
     extras_require={
         "test": [
@@ -45,6 +45,7 @@ setup(
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",

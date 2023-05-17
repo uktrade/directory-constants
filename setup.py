@@ -30,7 +30,7 @@ setup(
             "pytest-cov==2.7.1",
             "pytest-django==3.3.0",
             "flake8==5.0.4",
-            "twine>=1.11.0,<4.0.2",
+            "twine>=1.11.0,<=4.0.2",
             "wheel>=0.31.0,<1.0.0",
             "freezegun==0.3.8",
             "setuptools>=38.6.0,<39.0.0",

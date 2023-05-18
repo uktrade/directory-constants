@@ -1,5 +1,9 @@
 # Changelog
 
+## [23.1.1]
+[Full Changelog]() (2023-05-18)
+### Enhancement
+- KLS-569 - Downgrade to Django to 3.2.19
 
 ## [23.1.0]
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/176) (2023-05-17)

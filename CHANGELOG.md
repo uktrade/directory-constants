@@ -2,7 +2,7 @@
 
 
 ## [23.1.1]
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/177) (2023-07-06)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/179) (2023-07-06)
 ### Enhancement
 - KLS-822 - Upgrade Django to 4.2.3
 ## [23.1.0]

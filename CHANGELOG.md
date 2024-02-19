@@ -2,9 +2,10 @@
 
 
 ## [23.1.1]
-[Full Changelog](https://github.com/uktrade/directory-constants/pull/179) (2023-07-06)
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/185) (2024-02-19)
 ### Enhancement
-- KLS-822 - Upgrade Django to 4.2.3
+- KLS-1948 - Upgrade Django to 4.2.10
+
 ## [23.1.0]
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/176) (2023-05-17)
 ### Enhancement

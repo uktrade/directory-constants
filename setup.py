@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="directory_constants",
-    version="24.1.0",
+    version="24.1.1",
     url="https://github.com/uktrade/directory-constants",
     license="MIT",
     author="Department for Business and Trade",
@@ -22,7 +22,7 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        "django>=4.2.7,<=4.2.8",
+        "django>=4.2.10,<=5.0",
     ],
     extras_require={
         "test": [

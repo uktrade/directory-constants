@@ -1,6 +1,11 @@
 # Changelog
 
 
+## [23.1.2]
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/186) (2024-02-27)
+### Enhancement
+- POLS-94 Add codeowners file
+
 ## [23.1.1]
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/185) (2024-02-19)
 ### Enhancement

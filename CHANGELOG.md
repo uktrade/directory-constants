@@ -1,5 +1,9 @@
 # Changelog
 
+## [23.1.3]
+[Full Changelog](https://github.com/uktrade/directory-constants/pull/187) (2024-04-11)
+### Enhancement
+- ET-35 Add Taiwan market option
 
 ## [23.1.2]
 [Full Changelog](https://github.com/uktrade/directory-constants/pull/186) (2024-02-27)
